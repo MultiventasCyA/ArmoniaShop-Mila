@@ -1,0 +1,35 @@
+/* Custom styles for Betterware theme colors and fonts */
+body {
+  font-family: "Inter", sans-serif;
+}
+/* Define custom Betterware colors if needed, though Tailwind classes are preferred */
+.betterware-blue-700 {
+  background-color: #1d4ed8;
+}
+.betterware-blue-600 {
+  background-color: #2563eb;
+}
+.betterware-blue-500 {
+  background-color: #3b82f6;
+}
+.betterware-yellow-400 {
+  background-color: #facc15;
+}
+.betterware-yellow-300 {
+  color: #fde047;
+} /* For text */
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide sections by default, JavaScript will show them */
+.section-content {
+  display: none;
+}
+
+/* Show active section */
+.section-content.active {
+  display: block;
+}
