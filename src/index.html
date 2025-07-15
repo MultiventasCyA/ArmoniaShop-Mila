@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ArmoniaSimple: soluciones innovadoras para tu hogar. Compra productos organizadores, tapetes y más en Mérida."
+    />
+    <meta
+      name="keywords"
+      content="hogar, organización, productos, Mérida, tienda, armonía"
+    />
+    <meta name="theme-color" content="#2d2d2d" />
+    <title>ArmoniaShop-Mila - Soluciones para tu Hogar</title>
+    <link rel="icon" href="assets/icon/Bolso 2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- *Header Section -->
+    <header>
+      <nav>
+        <div class="logo">Armonia Simple</div>
+        <!-- *Botón hamburguesa -->
+        <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú">
+          ☰
+        </button>
+        <div
+          class="cart-indicator"
+          tabindex="0"
+          role="button"
+          aria-label="Ver carrito"
+        >
+          🛒 <span id="cart-count">0</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#products">Productos</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- *Main Content Area -->
+    <main>
+      <section id="home" class="section-content active">
+        <h1>¡Bienvenido a Armonia Simple!</h1>
+        <p>Descubre soluciones innovadoras para tu hogar.</p>
+        <!-- <img src="https://via.placeholder.com/600x400" alt="Imagen de bienvenida"> -->
+      </section>
+
+      <section id="products" class="section-content">
+        <h2>Nuestros Productos</h2>
+        <input
+          type="text"
+          id="search-product"
+          placeholder="Buscar producto..."
+          aria-label="Buscar producto"
+          style="
+            margin-bottom: 1.5rem;
+            max-width: 350px;
+            width: 100%;
+            padding: 0.7rem 1rem;
+            border-radius: 0.5rem;
+            border: 1px solid #cbd5e1;
+          "
+        />
+        <div id="product-grid">
+          <!-- *Los productos se cargarán dinámicamente aquí mediante JavaScript -->
+        </div>
+      </section>
+
+      <section id="about" class="section-content">
+        <h2>🏠 ¿Quiénes Somos?</h2>
+        <p class="About-text">
+          En Armonía Shop-Mila creemos que un hogar feliz empieza por los
+          pequeños detalles. Somos más que una tienda: somos tu aliado en
+          transformar espacios, mejorar rutinas y cuidar lo que más amas.
+          Ofrecemos productos de calidad en limpieza, organización, salud,
+          belleza y estilo de vida, respaldados por marcas confiables como
+          Betterware, Stanhome y muchas más. <br /><br />Pero lo que realmente
+          nos distingue es nuestro compromiso genuino con tu bienestar.
+          <br /><br />💖 Tu satisfacción es nuestra razón de ser. Nos emociona
+          saber que detrás de cada artículo que eliges hay una ilusión, una
+          necesidad o un gesto de cariño para alguien especial. Por eso,
+          trabajamos con seriedad, atención y cercanía, para que cada compra te
+          deje una sonrisa. <br /><br />🎁 Y porque sabemos lo importante que es
+          cuidar tu bolsillo, ponemos a tu alcance productos increíbles a
+          precios que enamoran, sin sacrificar calidad ni buen gusto. Gracias
+          por dejarnos ser parte de tu día a día. En Armonía Shop-Mila, creemos
+          que la armonía empieza en casa... y estamos aquí para ayudarte a
+          crearla.
+        </p>
+      </section>
+
+      <section id="contact" class="section-content">
+        <h2>Contáctanos</h2>
+        <form id="contact-form">
+          <input
+            type="text"
+            placeholder="Tu nombre"
+            required
+            autocomplete="name"
+          />
+          <input
+            type="email"
+            placeholder="Tu correo"
+            required
+            autocomplete="email"
+          />
+          <textarea placeholder="Tu mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- *Footer Section -->
+    <footer>
+      <p>
+        &copy; <span id="current-year"></span> Armonia Simple. Todos los
+        derechos reservados.
+      </p>
+      <p>Diseñado con pasión para tu hogar.</p>
+    </footer>
+
+    <!-- *Panel del carrito -->
+    <div id="cart-panel" class="cart-panel">
+      <div class="cart-panel-content">
+        <h3>Carrito de compras</h3>
+        <ul id="cart-list"></ul>
+        <button id="clear-cart" class="clear-cart-btn">Vaciar carrito</button>
+        <button id="close-cart" class="close-cart-btn">Cerrar</button>
+      </div>
+    </div>
+
+    <div id="toast-container" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
