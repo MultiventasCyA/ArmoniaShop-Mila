@@ -1,4 +1,4 @@
-# ArmoniaSimple
+# ArmoniaShop-Mila
 
 Este proyecto es una aplicación web simple llamada ArmoniaSimple, diseñada para proporcionar una estructura básica para el desarrollo de una página web. A continuación se detallan los archivos y su propósito:
 
