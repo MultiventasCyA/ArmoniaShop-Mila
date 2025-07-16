@@ -1,16 +1,16 @@
-// Este archivo contiene el código JavaScript que añade interactividad a la página.
-// Puedes incluir funciones para manejar eventos, manipular el DOM y cargar contenido dinámicamente.
+//* Este archivo contiene el código JavaScript que añade interactividad a la página.
+//* Puedes incluir funciones para manejar eventos, manipular el DOM y cargar contenido dinámicamente.
 
-// Ejemplo de código para mostrar el año actual en el pie de página
+//* Ejemplo de código para mostrar el año actual en el pie de página
 document.addEventListener("DOMContentLoaded", function () {
   const currentYear = new Date().getFullYear();
   document.getElementById("current-year").textContent = currentYear;
 });
 
-// Aquí puedes agregar más funciones según sea necesario para la interactividad de tu proyecto.
-// ...existing code...
+//* Aquí puedes agregar más funciones según sea necesario para la interactividad de tu proyecto.
+//* Código para manejar la navegación entre secciones, el carrito de compras y más
 document.addEventListener("DOMContentLoaded", () => {
-  // SPA: Navegación entre secciones
+  //* SPA: Navegación entre secciones
   const navLinksList = document.querySelectorAll(".nav-links a");
   const sections = document.querySelectorAll(".section-content");
 
@@ -22,16 +22,16 @@ document.addEventListener("DOMContentLoaded", () => {
       sections.forEach((sec) => sec.classList.remove("active"));
       document.getElementById(targetId).classList.add("active");
 
-      // Opcional: Desplazar arriba en móvil
+      //* Opcional: Desplazar arriba en móvil
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   });
 
-  // Mostrar año actual en el footer
+  //* Mostrar año actual en el footer
   document.getElementById("current-year").textContent =
     new Date().getFullYear();
 
-  // Menú hamburguesa responsive
+  //* Menú hamburguesa responsive
   const menuToggle = document.getElementById("menu-toggle");
   const navLinks = document.querySelector(".nav-links");
   if (menuToggle && navLinks) {
@@ -43,27 +43,27 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Cargar carrito y productos al iniciar
+  //* Cargar carrito y productos al iniciar
   cargarCarrito();
-  // renderProducts(); // Comentado porque ahora se carga en otro lugar
+  //* renderProducts(); // Comentado porque ahora se carga en otro lugar
   actualizarCarrito();
 
-  // Mostrar panel al hacer clic en el carrito
+  //* Mostrar panel al hacer clic en el carrito
   document.querySelector(".cart-indicator").addEventListener("click", () => {
     document.getElementById("cart-panel").classList.add("open");
   });
-  // Cerrar panel
+  //* Cerrar panel
   document.getElementById("close-cart").addEventListener("click", () => {
     document.getElementById("cart-panel").classList.remove("open");
   });
 
-  // Validación del formulario de contacto
+  //* Validación del formulario de contacto
   const form = document.getElementById("contact-form");
   if (form) {
     form.addEventListener("submit", function (e) {
       e.preventDefault();
 
-      // Limpiar mensajes previos
+      //* Limpiar mensajes previos
       let errorMsg = form.querySelector(".form-error");
       let successMsg = form.querySelector(".form-success");
       if (errorMsg) errorMsg.remove();
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const correo = form.querySelector('input[type="email"]').value.trim();
       const mensaje = form.querySelector("textarea").value.trim();
 
-      // Validaciones
+      //* Validaciones
       if (!nombre || !correo || !mensaje) {
         mostrarMensaje("Por favor, completa todos los campos.", "form-error");
         return;
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      // Si todo está bien
+      //* Si todo está bien
       mostrarMensaje("¡Mensaje enviado correctamente!", "form-success");
       form.reset();
     });
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Cargar productos desde JSON externo
+  //* Cargar productos desde JSON externo
   fetch("productos.json")
     .then((res) => res.json())
     .then((data) => {
@@ -104,12 +104,12 @@ document.addEventListener("DOMContentLoaded", () => {
       renderProducts();
     })
     .catch(() => {
-      // Si falla la carga, muestra un mensaje
+      //* Si falla la carga, muestra un mensaje
       document.getElementById("product-grid").innerHTML =
         "<p>No se pudieron cargar los productos.</p>";
     });
 
-  // Búsqueda de productos
+  //* Búsqueda de productos
   const searchInput = document.getElementById("search-product");
   if (searchInput) {
     searchInput.addEventListener("input", (e) => {
@@ -119,20 +119,20 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-// Array de productos de ejemplo
+//* Array de productos de ejemplo
 let products = [];
 
 let cart = [];
 
-// Variable para el término de búsqueda
+//* Variable para el término de búsqueda
 let searchTerm = "";
 
-// Función para renderizar productos
+//* Función para renderizar productos
 function renderProducts() {
   const grid = document.getElementById("product-grid");
   grid.innerHTML = "";
 
-  // Filtrar productos por el término de búsqueda
+  //* Filtrar productos por el término de búsqueda
   const filtered = products.filter((producto) =>
     producto.nombre.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -155,7 +155,7 @@ function renderProducts() {
     grid.appendChild(card);
   });
 
-  // Evento para los botones "Añadir"
+  //* Evento para los botones "Añadir"
   grid.querySelectorAll("button").forEach((btn) => {
     btn.addEventListener("click", function () {
       const idx = this.getAttribute("data-idx");
@@ -183,7 +183,7 @@ function cargarCarrito() {
   cart = data ? JSON.parse(data) : [];
 }
 
-// Modifica actualizarCarrito para guardar el carrito:
+//* Modifica actualizarCarrito para guardar el carrito:
 function actualizarCarrito() {
   document.getElementById("cart-count").textContent = cart.length;
   renderCartList();
@@ -258,7 +258,7 @@ toggleButton.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
 
-// Botón para enviar carrito por WhatsApp
+//* Botón para enviar carrito por WhatsApp
 function renderCartList() {
   const cartList = document.getElementById("cart-list");
   cartList.innerHTML = "";
@@ -268,7 +268,7 @@ function renderCartList() {
   }
   let total = 0;
   cart.forEach((item, idx) => {
-    // Extraer el número del precio (quita el $ y convierte a número)
+    //* Extraer el número del precio (quita el $ y convierte a número)
     const precioNum = Number(item.precio.replace(/[^0-9.]/g, ""));
     total += precioNum;
 
@@ -280,7 +280,7 @@ function renderCartList() {
     cartList.appendChild(li);
   });
 
-  // Mostrar total
+  //* Mostrar total
   const totalLi = document.createElement("li");
   totalLi.style.fontWeight = "bold";
   totalLi.style.borderTop = "1px solid #e0e7ef";
@@ -288,7 +288,7 @@ function renderCartList() {
   totalLi.innerHTML = `<span>Total:</span> <span>$${total.toFixed(2)}</span>`;
   cartList.appendChild(totalLi);
 
-  // Botones para quitar productos
+  //* Botones para quitar productos
   cartList.querySelectorAll(".remove-btn").forEach((btn) => {
     btn.addEventListener("click", function () {
       const idx = this.getAttribute("data-idx");
@@ -301,7 +301,7 @@ function renderCartList() {
     });
   });
 
-  // Botón de WhatsApp
+  //* Botón de WhatsApp
   const whatsappButton = document.createElement("button");
   whatsappButton.textContent = "Enviar por WhatsApp";
   whatsappButton.style.marginTop = "1rem";
@@ -321,7 +321,7 @@ function enviarCarritoPorWhatsApp() {
     mensaje += `- ${item.nombre} (${item.precio})\n`;
   });
 
-  // Calcula el total (reutilizando la lógica de renderCartList)
+  //* Calcula el total (reutilizando la lógica de renderCartList)
   let total = 0;
   cart.forEach((item) => {
     const precioNum = Number(item.precio.replace(/[^0-9.]/g, ""));
@@ -329,12 +329,12 @@ function enviarCarritoPorWhatsApp() {
   });
   mensaje += `\nTotal: $${total.toFixed(2)}`;
 
-  //  Añade instrucciones de contacto (opcional)
+  //*  Añade instrucciones de contacto (opcional)
   mensaje += `\n\nPor favor, confirma el pedido y dime cómo proceder con el pago.`;
 
-  //  Encode el mensaje para la URL
-  const url = `https://wa.me/+529995823756?text=${encodeURIComponent(mensaje)}`; // Reemplaza con tu número
+  //*  Encode el mensaje para la URL
+  const url = `https://wa.me/+529995823756?text=${encodeURIComponent(mensaje)}`; //* Reemplaza con tu número
 
-  //  Abre WhatsApp en una nueva pestaña
+  //*  Abre WhatsApp en una nueva pestaña
   window.open(url, "_blank");
 }
