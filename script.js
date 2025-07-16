@@ -190,48 +190,48 @@ function actualizarCarrito() {
   guardarCarrito();
 }
 
-function renderCartList() {
-  const cartList = document.getElementById("cart-list");
-  cartList.innerHTML = "";
-  if (cart.length === 0) {
-    cartList.innerHTML = "<li>El carrito está vacío.</li>";
-    return;
-  }
-  let total = 0;
-  cart.forEach((item, idx) => {
-    // Extraer el número del precio (quita el $ y convierte a número)
-    const precioNum = Number(item.precio.replace(/[^0-9.]/g, ""));
-    total += precioNum;
+// function renderCartList() {
+//   const cartList = document.getElementById("cart-list");
+//   cartList.innerHTML = "";
+//   if (cart.length === 0) {
+//     cartList.innerHTML = "<li>El carrito está vacío.</li>";
+//     return;
+//   }
+//   let total = 0;
+//   cart.forEach((item, idx) => {
+//     // Extraer el número del precio (quita el $ y convierte a número)
+//     const precioNum = Number(item.precio.replace(/[^0-9.]/g, ""));
+//     total += precioNum;
 
-    const li = document.createElement("li");
-    li.innerHTML = `
-      <span>${item.nombre} <small>${item.precio}</small></span>
-      <button class="remove-btn" data-idx="${idx}">Quitar</button>
-    `;
-    cartList.appendChild(li);
-  });
+//     const li = document.createElement("li");
+//     li.innerHTML = `
+//       <span>${item.nombre} <small>${item.precio}</small></span>
+//       <button class="remove-btn" data-idx="${idx}">Quitar</button>
+//     `;
+//     cartList.appendChild(li);
+//   });
 
-  // Mostrar total
-  const totalLi = document.createElement("li");
-  totalLi.style.fontWeight = "bold";
-  totalLi.style.borderTop = "1px solid #e0e7ef";
-  totalLi.style.marginTop = "1rem";
-  totalLi.innerHTML = `<span>Total:</span> <span>$${total.toFixed(2)}</span>`;
-  cartList.appendChild(totalLi);
+//   // Mostrar total
+//   const totalLi = document.createElement("li");
+//   totalLi.style.fontWeight = "bold";
+//   totalLi.style.borderTop = "1px solid #e0e7ef";
+//   totalLi.style.marginTop = "1rem";
+//   totalLi.innerHTML = `<span>Total:</span> <span>$${total.toFixed(2)}</span>`;
+//   cartList.appendChild(totalLi);
 
-  // Botones para quitar productos
-  cartList.querySelectorAll(".remove-btn").forEach((btn) => {
-    btn.addEventListener("click", function () {
-      const idx = this.getAttribute("data-idx");
-      // Confirmación antes de eliminar
-      if (confirm("¿Seguro que deseas quitar este producto del carrito?")) {
-        cart.splice(idx, 1);
-        actualizarCarrito();
-        showToast("Producto eliminado del carrito");
-      }
-    });
-  });
-}
+//   // Botones para quitar productos
+//   cartList.querySelectorAll(".remove-btn").forEach((btn) => {
+//     btn.addEventListener("click", function () {
+//       const idx = this.getAttribute("data-idx");
+//       // Confirmación antes de eliminar
+//       if (confirm("¿Seguro que deseas quitar este producto del carrito?")) {
+//         cart.splice(idx, 1);
+//         actualizarCarrito();
+//         showToast("Producto eliminado del carrito");
+//       }
+//     });
+//   });
+// }
 
 document.getElementById("clear-cart").addEventListener("click", () => {
   if (cart.length === 0) return;
@@ -333,7 +333,7 @@ function enviarCarritoPorWhatsApp() {
   mensaje += `\n\nPor favor, confirma el pedido y dime cómo proceder con el pago.`;
 
   //  Encode el mensaje para la URL
-  const url = `https://wa.me/TU_NUMERO_DE_WHATSAPP?text=${encodeURIComponent(mensaje)}`; // Reemplaza con tu número
+  const url = `https://wa.me/+529995823756?text=${encodeURIComponent(mensaje)}`; // Reemplaza con tu número
 
   //  Abre WhatsApp en una nueva pestaña
   window.open(url, "_blank");
