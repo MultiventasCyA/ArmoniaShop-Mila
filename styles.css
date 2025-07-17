@@ -7,7 +7,7 @@ body {
 
   display: grid;
   grid-template-rows: auto 1fr auto;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 header {
@@ -77,13 +77,6 @@ footer a:hover {
   font-weight: bold;
   color: #fbbf24;
 }
-/* video {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: block;
-  border-radius: 8px;
-} */
 video {
   aspect-ratio: 16 / 9;
   width: 100%;
@@ -95,6 +88,12 @@ video {
 }
 .section-content.active {
   display: block;
+}
+
+.About-text{
+  font-size:20px;
+  line-height: 1.6;
+  margin-top: 1rem;
 }
 
 .whatsapp-btn {
@@ -109,7 +108,6 @@ video {
 .whatsapp-btn:hover {
   background-color: #128C7E;  /* Darker green on hover */
 }
-
 
 #product-grid {
   display: flex;
@@ -414,7 +412,12 @@ video {
     font-size: 2rem;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 796px) {
+  .logo {
+    font-size: 1.50rem;
+  }
+}
+@media (max-width: 715px) {
   nav {
     flex-wrap: wrap;
   }
@@ -450,6 +453,14 @@ video {
   .cart-indicator {
     margin-left: 0;
   }
+  .logo {
+    font-size: 1.50rem;
+  }
+  .About-text{
+  font-size:16px;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
 }
 @media (max-width: 600px) {
   #product-grid {
@@ -464,4 +475,9 @@ video {
   .logo {
     font-size: 1.5rem;
   }
+  .About-text{
+  font-size:14px;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
 }
