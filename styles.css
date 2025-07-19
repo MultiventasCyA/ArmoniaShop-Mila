@@ -90,14 +90,14 @@ video {
   display: block;
 }
 
-.About-text{
-  font-size:20px;
+.About-text {
+  font-size: 20px;
   line-height: 1.6;
   margin-top: 1rem;
 }
 
 .whatsapp-btn {
-  background-color: #25D366;  /* WhatsApp green */
+  background-color: #25d366; /* WhatsApp green */
   color: white;
   padding: 0.5rem 1rem;
   border: none;
@@ -106,7 +106,7 @@ video {
 }
 
 .whatsapp-btn:hover {
-  background-color: #128C7E;  /* Darker green on hover */
+  background-color: #128c7e; /* Darker green on hover */
 }
 
 #product-grid {
@@ -414,7 +414,7 @@ video {
 }
 @media (max-width: 796px) {
   .logo {
-    font-size: 1.50rem;
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 715px) {
@@ -454,13 +454,13 @@ video {
     margin-left: 0;
   }
   .logo {
-    font-size: 1.50rem;
+    font-size: 1.5rem;
   }
-  .About-text{
-  font-size:16px;
-  line-height: 1.6;
-  margin-top: 1rem;
-}
+  .About-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 1rem;
+  }
 }
 @media (max-width: 600px) {
   #product-grid {
@@ -475,9 +475,9 @@ video {
   .logo {
     font-size: 1.5rem;
   }
-  .About-text{
-  font-size:14px;
-  line-height: 1.6;
-  margin-top: 1rem;
-}
+  .About-text {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 1rem;
+  }
 }
