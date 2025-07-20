@@ -62,16 +62,6 @@ footer {
   margin-top: 2rem;
 }
 
-/* footer a {
-  color: #fbbf24;
-  text-decoration: none;
-  transition: color 0.3s;
-} */
-
-/* footer a:hover {
-  color: #fcd34d;
-} */
-
 .logo {
   font-size: 2.5rem;
   font-weight: bold;
@@ -287,7 +277,7 @@ footer {
   list-style: none;
   padding: 0;
   margin: 0 0 1.5rem 0;
-  max-height: 350px;
+  max-height: 700px;
   overflow-y: auto;
 }
 #cart-list li {

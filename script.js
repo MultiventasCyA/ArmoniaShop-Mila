@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       //? Opcional: Desplazar arriba en móvil
       // window.scrollTo({ top: 0, behavior: "smooth" });
-      window.scrollTo({ top: 0, behavior:"smooth"})
+      window.scrollTo({ top: 0, behavior: "smooth" });
     });
   });
 
@@ -205,50 +205,100 @@ function showToast(mensaje) {
   }, 2500);
 }
 
-const toggleButton = document.getElementById("toggleMode");
-toggleButton.addEventListener("click", () => {
-  document.body.classList.toggle("dark-mode");
-});
+// const toggleButton = document.getElementById("toggleMode");
+// toggleButton.addEventListener("click", () => {
+//   document.body.classList.toggle("dark-mode");
+// });
 
-//? Botón para enviar carrito por WhatsApp
+//? rendezizar la lista del carrito y sumar precios
+//? Esta función se encarga de mostrar los productos en el carrito y calcular el total
+//? de la compra. También permite eliminar productos del carrito y enviar el pedido por WhatsApp
+
 function renderCartList() {
   const cartList = document.getElementById("cart-list");
   cartList.innerHTML = "";
+
   if (cart.length === 0) {
     cartList.innerHTML = "<li>El carrito está vacío.</li>";
     return;
   }
-  let total = 0;
-  cart.forEach((item, idx) => {
-    //? Extraer el número del precio (quita el $ y convierte a número)
-    const precioNum = Number(item.precio.replace(/[^0-9.]/g, ""));
-    total += precioNum;
+
+  // Agrupar productos
+  const agrupados = {};
+  cart.forEach((item) => {
+    if (!agrupados[item.nombre]) {
+      agrupados[item.nombre] = { ...item, cantidad: 1 };
+    } else {
+      agrupados[item.nombre].cantidad += 1;
+    }
+  });
+
+  let totalProductos = 0;
+  const costoEnvio = 50; // 💸 Puedes ajustar o hacerlo dinámico
+
+  Object.values(agrupados).forEach((item) => {
+    const precioUnit = Number(item.precio.replace(/[^0-9.]/g, ""));
+    const subtotal = precioUnit * item.cantidad;
+    totalProductos += subtotal;
 
     const li = document.createElement("li");
     li.innerHTML = `
-      <span>${item.nombre} <small>${item.precio}</small></span>
-      <button class="remove-btn" data-idx="${idx}">Quitar</button>
+      <span>
+        ${item.nombre} 
+        <small>$${precioUnit.toFixed(2)} × ${item.cantidad}</small> 
+        = <strong>$${subtotal.toFixed(2)}</strong>
+      </span>
+      <div style="margin-top: 0.5rem;">
+        <button class="btn-restar" data-nombre="${item.nombre}">–</button>
+        <button class="btn-sumar" data-nombre="${item.nombre}">+</button>
+      </div>
     `;
     cartList.appendChild(li);
   });
 
-  //? Mostrar total
+  // Linea de subtotal
+  const subtotalLi = document.createElement("li");
+  subtotalLi.innerHTML = `<span>Subtotal:</span> <span>$${totalProductos.toFixed(
+    2
+  )}</span>`;
+  cartList.appendChild(subtotalLi);
+
+  // Línea de envío
+  const envioLi = document.createElement("li");
+  envioLi.innerHTML = `<span>🛵Envío:</span> <span>$${costoEnvio.toFixed(
+    2
+  )}</span>`;
+  cartList.appendChild(envioLi);
+
+  // Línea de total final
   const totalLi = document.createElement("li");
   totalLi.style.fontWeight = "bold";
   totalLi.style.borderTop = "1px solid #e0e7ef";
-  totalLi.style.marginTop = "1rem";
-  totalLi.innerHTML = `<span>Total:</span> <span>$${total.toFixed(2)}</span>`;
+  totalLi.style.marginTop = "0.5rem";
+  totalLi.innerHTML = `<span>Total:</span> <span>$${(
+    totalProductos + costoEnvio
+  ).toFixed(2)}</span>`;
   cartList.appendChild(totalLi);
 
-  //? Botones para quitar productos
-  cartList.querySelectorAll(".remove-btn").forEach((btn) => {
-    btn.addEventListener("click", function () {
-      const idx = this.getAttribute("data-idx");
-      //? Confirmación antes de eliminar
-      if (confirm("¿Seguro que deseas quitar este producto del carrito?")) {
+  // Botones suma y resta
+  cartList.querySelectorAll(".btn-sumar").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const nombre = btn.getAttribute("data-nombre");
+      const producto = cart.find((p) => p.nombre === nombre);
+      if (producto) cart.push({ ...producto });
+      actualizarCarrito();
+      showToast(`Agregaste otra unidad de ${nombre}`);
+    });
+  });
+
+  cartList.querySelectorAll(".btn-restar").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const nombre = btn.getAttribute("data-nombre");
+      const idx = cart.findIndex((p) => p.nombre === nombre);
+      if (idx !== -1) {
         cart.splice(idx, 1);
         actualizarCarrito();
-        showToast("Producto eliminado del carrito");
+        showToast(`Quitaste una unidad de ${nombre}`);
       }
     });
   });
@@ -262,31 +312,54 @@ function renderCartList() {
   cartList.appendChild(whatsappButton);
 }
 
+//? Función para enviar el carrito por WhatsApp
+//? Esta función agrupa los productos por nombre, calcula subtotales y envía un
+//? mensaje formateado a través de la API de WhatsApp.
+//? Asegúrate de que el número de WhatsApp sea correcto y esté en formato internacional.
 function enviarCarritoPorWhatsApp() {
   if (cart.length === 0) {
     showToast("El carrito está vacío. ¡Agrega productos primero!");
     return;
   }
 
-  let mensaje = "¡Hola! Me gustaría ordenar lo siguiente:\n\n";
+  // Agrupar productos
+  const productosAgrupados = {};
   cart.forEach((item) => {
-    mensaje += `- ${item.nombre} (${item.precio})\n`;
+    if (!productosAgrupados[item.nombre]) {
+      productosAgrupados[item.nombre] = { ...item, cantidad: 1 };
+    } else {
+      productosAgrupados[item.nombre].cantidad += 1;
+    }
   });
 
-  //? Calcula el total (reutilizando la lógica de renderCartList)
-  let total = 0;
-  cart.forEach((item) => {
-    const precioNum = Number(item.precio.replace(/[^0-9.]/g, ""));
-    total += precioNum;
+  const costoEnvio = 50; // Ajustable según tu lógica
+  let mensaje = "🧾 *Pedido Armonía Shop-Mila*\n";
+  mensaje += "─────────────────────────\n";
+  mensaje += "*Producto*     Cant.   Subtotal\n";
+  mensaje += "─────────────────────────\n";
+
+  let subtotal = 0;
+
+  Object.values(productosAgrupados).forEach((item) => {
+    const precioUnit = Number(item.precio.replace(/[^0-9.]/g, ""));
+    const monto = precioUnit * item.cantidad;
+    subtotal += monto;
+
+    const nombre = item.nombre.padEnd(16);
+    const cantidad = `${item.cantidad}`.padStart(5);
+    const precioFinal = `$${monto.toFixed(2)}`.padStart(10);
+
+    mensaje += `${nombre}${cantidad}${precioFinal}\n`;
   });
-  mensaje += `\nTotal: $${total.toFixed(2)}`;
 
-  //?  Añade instrucciones de contacto (opcional)
-  mensaje += `\n\nPor favor, confirma el pedido y dime cómo proceder con el pago.`;
+  mensaje += "─────────────────────────\n";
+  mensaje += `Subtotal:           $${subtotal.toFixed(2)}\n`;
+  mensaje += `Envío:              $${costoEnvio.toFixed(2)}\n`;
+  mensaje += `TOTAL:              $${(subtotal + costoEnvio).toFixed(2)}\n`;
+  mensaje += "─────────────────────────\n\n";
+  mensaje +=
+    "Por favor confirma tu pedido para coordinar el envío y pago.\nCuando confirmes tu pedido, favor de enviarnos tu Ubicación y Dirección.";
 
-  //?  Encode el mensaje para la URL
-  const url = `https://wa.me/+529995823756?text=${encodeURIComponent(mensaje)}`; //? Reemplaza con tu número
-
-  //?  Abre WhatsApp en una nueva pestaña
+  const url = `https://wa.me/+529995823756?text=${encodeURIComponent(mensaje)}`;
   window.open(url, "_blank");
 }
