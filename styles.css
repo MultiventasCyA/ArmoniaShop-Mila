@@ -68,6 +68,21 @@ footer {
   color: #fbbf24;
 }
 
+figure {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+
 .section-content {
   display: none;
 }
