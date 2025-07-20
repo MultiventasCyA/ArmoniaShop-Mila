@@ -62,25 +62,20 @@ footer {
   margin-top: 2rem;
 }
 
-footer a {
+/* footer a {
   color: #fbbf24;
   text-decoration: none;
   transition: color 0.3s;
-}
+} */
 
-footer a:hover {
+/* footer a:hover {
   color: #fcd34d;
-}
+} */
 
 .logo {
   font-size: 2.5rem;
   font-weight: bold;
   color: #fbbf24;
-}
-video {
-  aspect-ratio: 16 / 9;
-  width: 100%;
-  object-fit: cover;
 }
 
 .section-content {
@@ -92,7 +87,7 @@ video {
 
 .About-text {
   font-size: 20px;
-  line-height: 1.6;
+  line-height: 1.75;
   margin-top: 1rem;
 }
 

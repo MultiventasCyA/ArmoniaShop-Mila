@@ -15,17 +15,18 @@
     <title>ArmoniaShop-Mila - Soluciones para tu Hogar</title>
     <link rel="icon" href="src/assets/icon/Bolso 2.png" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <!-- *Header Section -->
+    <!-- Header Section -->
     <header>
       <nav>
         <div class="logo">ArmoniaShop-Mila</div>
-        <!-- *Botón hamburguesa -->
+        <!-- Botón hamburguesa -->
         <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú">
           ☰
         </button>
@@ -46,15 +47,11 @@
       </nav>
     </header>
 
-    <!-- *Main Content Area -->
+    <!-- Main Content Area -->
     <main>
       <section id="home" class="section-content active">
         <h1>¡Bienvenido a ArmoniaShop-Mila!</h1>
         <p>Descubre soluciones innovadoras para tu hogar.</p>
-        <video autoplay muted loop playsinline>
-          <!-- <source src="src/assets/img/intro.mp4" type="video/mp4" /> -->
-          Tu navegador no soporta el elemento de video.
-        </video>
       </section>
 
       <section id="products" class="section-content">
@@ -76,7 +73,7 @@
           "
         />
         <div id="product-grid">
-          <!-- *Los productos se cargarán dinámicamente aquí mediante JavaScript -->
+          <!-- Los productos se cargarán dinámicamente aquí mediante JavaScript -->
         </div>
       </section>
 
@@ -124,7 +121,7 @@
       </section>
     </main>
 
-    <!-- *Footer Section -->
+    <!-- Footer Section -->
     <footer>
       <p>
         &copy; <span id="current-year"></span> ArmoniaShop-Mila. Todos los
@@ -133,7 +130,7 @@
       <p>Diseñado con pasión para tu hogar.</p>
     </footer>
 
-    <!-- *Panel del carrito -->
+    <!-- Panel del carrito -->
     <div id="cart-panel" class="cart-panel">
       <div class="cart-panel-content">
         <h3>Carrito de compras</h3>
@@ -143,6 +140,7 @@
       </div>
     </div>
 
+    <!-- Contenedor para notificaciones emergentes -->
     <div id="toast-container" aria-live="polite"></div>
 
     <script src="script.js"></script>

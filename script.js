@@ -1,12 +1,6 @@
 //? Este archivo contiene el código JavaScript que añade interactividad a la página.
 //? Puedes incluir funciones para manejar eventos, manipular el DOM y cargar contenido dinámicamente.
 
-//? Ejemplo de código para mostrar el año actual en el pie de página
-document.addEventListener("DOMContentLoaded", function () {
-  const currentYear = new Date().getFullYear();
-  document.getElementById("current-year").textContent = currentYear;
-});
-
 //? Aquí puedes agregar más funciones según sea necesario para la interactividad de tu proyecto.
 //? Código para manejar la navegación entre secciones, el carrito de compras y más
 document.addEventListener("DOMContentLoaded", () => {
@@ -23,7 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById(targetId).classList.add("active");
 
       //? Opcional: Desplazar arriba en móvil
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      // window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scrollTo({ top: 0, behavior:"smooth"})
     });
   });
 
