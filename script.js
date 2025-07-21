@@ -53,40 +53,81 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   //? Validación del formulario de contacto
+  // const form = document.getElementById("contact-form");
+  // if (form) {
+  //   form.addEventListener("submit", function (e) {
+  //     e.preventDefault();
+  //     form.querySelectorAll("input, textarea").forEach(el => el.classList.remove("error"));
+
+  //     //? Limpiar mensajes previos
+  //     let errorMsg = form.querySelector(".form-error");
+  //     let successMsg = form.querySelector(".form-success");
+  //     if (errorMsg) errorMsg.remove();
+  //     if (successMsg) successMsg.remove();
+
+  //     const nombre = form.querySelector('input[type="text"]').value.trim();
+  //     const correo = form.querySelector('input[type="email"]').value.trim();
+  //     const mensaje = form.querySelector("textarea").value.trim();
+
+  //     //? Validaciones
+  //     if (!nombre || !correo || !mensaje) {
+  //       mostrarMensaje("Por favor, completa todos los campos.", "form-error");
+  //       return;
+  //     }
+  //     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(correo)) {
+  //       form.querySelector('input[type="email"]').classList.add("error");
+  //       return;
+  //     }
+
+  //     //? Si todo está bien
+  //     mostrarMensaje("¡Mensaje enviado correctamente!", "form-success");
+  //     form.reset();
+  //   });
+
+  //   function mostrarMensaje(texto, clase) {
+  //     const div = document.createElement("div");
+  //     div.textContent = texto;
+  //     div.className = clase;
+  //     form.insertBefore(div, form.querySelector("button"));
+  //   }
+  // }
+
   const form = document.getElementById("contact-form");
+
   if (form) {
     form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      form.querySelectorAll("input, textarea").forEach(el => el.classList.remove("error"));
+      e.preventDefault(); // Intercepta envío temporalmente
 
-      //? Limpiar mensajes previos
-      let errorMsg = form.querySelector(".form-error");
-      let successMsg = form.querySelector(".form-success");
-      if (errorMsg) errorMsg.remove();  
-      if (successMsg) successMsg.remove();
+      // Limpiar clases de error visual
+      form
+        .querySelectorAll("input, textarea")
+        .forEach((el) => el.classList.remove("error"));
 
-      const nombre = form.querySelector('input[type="text"]').value.trim();
-      const correo = form.querySelector('input[type="email"]').value.trim();
-      const mensaje = form.querySelector("textarea").value.trim();
+      // Eliminar mensajes previos
+      form
+        .querySelectorAll(".form-error, .form-success")
+        .forEach((el) => el.remove());
 
-      // const nombre = form.nombre.value.trim();
-      // const correo = form.correo.value.trim();
-      // const mensaje = form.mensaje.value.trim();
+      const nombre = form.nombre.value.trim();
+      const correo = form.correo.value.trim();
+      const mensaje = form.mensaje.value.trim();
 
-      //? Validaciones
+      // Validación de campos vacíos
       if (!nombre || !correo || !mensaje) {
         mostrarMensaje("Por favor, completa todos los campos.", "form-error");
         return;
       }
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(correo)) {
-        form.querySelector('input[type="email"]').classList.add("error");
-        // mostrarMensaje("Por favor, ingresa un correo válido.", "form-error");
+
+      // Validación de correo electrónico
+      const emailValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(correo);
+      if (!emailValido) {
+        form.correo.classList.add("error");
+        mostrarMensaje("Correo inválido. Verifica el formato.", "form-error");
         return;
       }
 
-      //? Si todo está bien
-      mostrarMensaje("¡Mensaje enviado correctamente!", "form-success");
-      form.reset();
+      // ✅ Todo correcto → ahora sí enviamos el formulario real
+      form.submit(); // Esto activa el envío a FormSubmit
     });
 
     function mostrarMensaje(texto, clase) {
