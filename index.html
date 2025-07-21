@@ -53,7 +53,10 @@
         <h1>¡Bienvenido a ArmoniaShop-Mila!</h1>
         <p>Descubre soluciones innovadoras para tu hogar.</p>
         <figure>
-          <img src="src/assets/img/portada.jpg" alt="Bienvenido a ArmoniaShop-Mila" />
+          <img
+            src="src/assets/img/portada.jpg"
+            alt="Bienvenido a ArmoniaShop-Mila"
+          />
         </figure>
       </section>
 
@@ -105,20 +108,26 @@
 
       <section id="contact" class="section-content">
         <h2>Contáctanos</h2>
-        <form id="contact-form">
+        <form
+          id="contact-form"
+          action="https://formsubmit.co/axl6513@gmail.com"
+          method="POST"
+        >
           <input
             type="text"
+            name="nombre"
             placeholder="Tu nombre"
             required
             autocomplete="name"
           />
           <input
             type="email"
+            name="correo"
             placeholder="Tu correo"
             required
             autocomplete="email"
           />
-          <textarea placeholder="Tu mensaje" required></textarea>
+          <textarea placeholder="Tu mensaje" name="mensaje" required></textarea>
           <button type="submit">Enviar</button>
         </form>
       </section>

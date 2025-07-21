@@ -57,16 +57,21 @@ document.addEventListener("DOMContentLoaded", () => {
   if (form) {
     form.addEventListener("submit", function (e) {
       e.preventDefault();
+      form.querySelectorAll("input, textarea").forEach(el => el.classList.remove("error"));
 
       //? Limpiar mensajes previos
       let errorMsg = form.querySelector(".form-error");
       let successMsg = form.querySelector(".form-success");
-      if (errorMsg) errorMsg.remove();
+      if (errorMsg) errorMsg.remove();  
       if (successMsg) successMsg.remove();
 
       const nombre = form.querySelector('input[type="text"]').value.trim();
       const correo = form.querySelector('input[type="email"]').value.trim();
       const mensaje = form.querySelector("textarea").value.trim();
+
+      // const nombre = form.nombre.value.trim();
+      // const correo = form.correo.value.trim();
+      // const mensaje = form.mensaje.value.trim();
 
       //? Validaciones
       if (!nombre || !correo || !mensaje) {
@@ -74,6 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(correo)) {
+        form.querySelector('input[type="email"]').classList.add("error");
         mostrarMensaje("Por favor, ingresa un correo válido.", "form-error");
         return;
       }
