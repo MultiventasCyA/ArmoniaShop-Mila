@@ -110,25 +110,26 @@
         <h2>Contáctanos</h2>
         <form
           id="contact-form"
-          action="https://formsubmit.co/axl6513@gmail.com"
-          method="POST"
+          action="https://formsubmit.co/axl6513@gmail.com" method="POST"
         >
           <input
             type="text"
-            name="nombre"
+            name="name"
             placeholder="Tu nombre"
             required
             autocomplete="name"
           />
           <input
             type="email"
-            name="correo"
+            name="email"
             placeholder="Tu correo"
             required
             autocomplete="email"
           />
-          <textarea placeholder="Tu mensaje" name="mensaje" required></textarea>
+          <textarea placeholder="Tu mensaje" name="message" required></textarea>
           <button type="submit">Enviar</button>
+          <input type="hidden" name="_captcha" value="false">
+
         </form>
       </section>
     </main>

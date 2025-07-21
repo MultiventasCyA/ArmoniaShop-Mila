@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(correo)) {
         form.querySelector('input[type="email"]').classList.add("error");
-        mostrarMensaje("Por favor, ingresa un correo válido.", "form-error");
+        // mostrarMensaje("Por favor, ingresa un correo válido.", "form-error");
         return;
       }
 
