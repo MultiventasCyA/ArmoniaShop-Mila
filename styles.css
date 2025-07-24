@@ -36,6 +36,7 @@ nav a {
   color: white;
   text-decoration: none;
   transition: color 0.3s;
+  font-size: 1.1rem;
 }
 
 nav a:hover {
@@ -60,6 +61,29 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
+}
+
+/*redes sociales*/
+.social-label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  color: #e0e7ff;
+}
+.social-icons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.social-link {
+  color: #ffffff; /* íconos en blanco */
+  font-size: 1.4rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-link:hover {
+  color: #e0e7ff; /* un azul claro o blanco suave al pasar */
+  transform: scale(1.2); /* animación de escala */
 }
 
 .logo {
@@ -93,19 +117,6 @@ figure img {
   font-size: 20px;
   line-height: 1.75;
   margin-top: 1rem;
-}
-
-.whatsapp-btn {
-  background-color: #25d366; /* WhatsApp green */
-  color: white;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-
-.whatsapp-btn:hover {
-  background-color: #128c7e; /* Darker green on hover */
 }
 
 #product-grid {
@@ -196,6 +207,9 @@ figure img {
   transition: border 0.2s;
   resize: none;
 }
+#contact-form textarea {
+  field-sizing: content;
+}
 #contact-form input:focus,
 #contact-form textarea:focus {
   border: 1.5px solid #3b82f6;
@@ -244,6 +258,13 @@ input.error,
 textarea.error {
   border: 2px solid crimson;
   background-color: #2c2c2c;
+}
+
+.mapa-contacto {
+  margin-top: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .cart-indicator {
@@ -321,7 +342,18 @@ textarea.error {
 .close-cart-btn:hover {
   background: #1e40af;
 }
+.whatsapp-btn {
+  background-color: #25d366; /* WhatsApp green */
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
 
+.whatsapp-btn:hover {
+  background-color: #128c7e; /* Darker green on hover */
+}
 .remove-btn {
   background: #e20000;
   border-radius: 5px;
@@ -334,16 +366,6 @@ textarea.error {
   color: #ff0000;
   background-color: #ffffff;
   transition: ease-in-out, background-color 0.5s ease-in-out;
-}
-
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 2rem;
-  color: #1e3a8a;
-  cursor: pointer;
-  margin-left: auto;
 }
 
 .clear-cart-btn {
@@ -360,6 +382,17 @@ textarea.error {
 }
 .clear-cart-btn:hover {
   background: #b91c1c;
+}
+
+/*menu hamburguesa*/
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #1e3a8a;
+  cursor: pointer;
+  margin-left: auto;
 }
 
 /*Ventanas emergentes*/
