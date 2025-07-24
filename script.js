@@ -409,4 +409,9 @@ function enviarCarritoPorWhatsApp() {
 
   const url = `https://wa.me/+529995823756?text=${encodeURIComponent(mensaje)}`;
   window.open(url, "_blank");
+
+  // 🧹 Vacía el carrito después del envío
+  cart.length = 0; // limpia el array sin perder la referencia
+  actualizarCarrito(); // vuelve a renderizar el carrito y contador
+  showToast("Pedido enviado. El carrito ha sido vaciado.");
 }
