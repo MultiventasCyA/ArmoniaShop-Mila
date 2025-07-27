@@ -402,12 +402,12 @@ function enviarCarritoPorWhatsApp() {
   mensaje += "─────────────────────────\n";
   mensaje += `Subtotal:           $${subtotal.toFixed(2)}\n`;
   mensaje += `Envío:              $${costoEnvio.toFixed(2)}\n`;
-  mensaje += `TOTAL:              $${(subtotal + costoEnvio).toFixed(2)}\n`;
+  mensaje += `*TOTAL:*              $${(subtotal + costoEnvio).toFixed(2)}\n`;
   mensaje += "─────────────────────────\n\n";
   mensaje +=
-    "Por favor confirma tu pedido para coordinar el envío y pago.\nCuando confirmes tu pedido, favor de enviarnos tu Ubicación y Dirección.";
+    "Gracias por su preferencia.\nEn un momento le envió los datos para su pago por transferencia\no si lo prefiere en contra entrega\nFavor de enviarnos su Ubicación y Dirección.";
 
-  const url = `https://wa.me/+529995823756?text=${encodeURIComponent(mensaje)}`;
+  const url = `https://wa.me/+528139951055?text=${encodeURIComponent(mensaje)}`;
   window.open(url, "_blank");
 
   // 🧹 Vacía el carrito después del envío
