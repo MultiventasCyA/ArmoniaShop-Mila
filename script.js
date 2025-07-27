@@ -416,22 +416,33 @@ function enviarCarritoPorWhatsApp() {
   showToast("Pedido enviado. El carrito ha sido vaciado.");
 }
 
+// 🧱 1. Selecciona el contenedor del modal (donde se mostrará la imagen ampliada)
 const modal = document.getElementById("imgModal");
+
+// 🖼️ 2. Selecciona la imagen dentro del modal, que se actualizará dinámicamente
 const modalImg = document.getElementById("modal-image");
+
+// ❌ 3. Selecciona el botón de cierre del modal (el ícono ×)
 const closeBtn = document.querySelector(".cerrar-modal");
 
+// 🖱️ 4. Escucha clics dentro del contenedor dinámico de productos
 document.getElementById("product-grid").addEventListener("click", (e) => {
+  // 🔍 5. Verifica si el clic proviene de una imagen dentro de .product-card
   const clickedImg = e.target.closest(".product-card img");
+
+  // 🖼️ 6. Si el clic fue sobre una imagen válida, actualiza el modal y lo muestra
   if (clickedImg) {
-    modalImg.src = clickedImg.src;
-    modal.style.display = "flex";
+    modalImg.src = clickedImg.src; // Copia la ruta de la imagen clickeada
+    modal.style.display = "flex"; // Muestra el modal (flex para centrar)
   }
 });
 
+// ❌ 7. Cuando se hace clic en el botón de cerrar, oculta el modal
 closeBtn.addEventListener("click", () => {
   modal.style.display = "none";
 });
 
+// 🕵️ 8. También permite cerrar el modal si se hace clic fuera de la imagen (en el fondo)
 modal.addEventListener("click", (e) => {
   if (e.target === modal) {
     modal.style.display = "none";
