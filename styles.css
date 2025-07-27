@@ -190,6 +190,35 @@ figure img {
   transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
 }
 
+/* Modal overlay */
+.modal-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+.modal-img img {
+  max-width: 85%;
+  max-height: 85%;
+  border-radius: 1rem;
+  box-shadow: 0 0 24px rgba(0,0,0,0.3);
+}
+.cerrar-modal {
+  position: absolute;
+  top: 2rem;
+  right: 2.5rem;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
 #contact-form {
   display: flex;
   flex-direction: column;

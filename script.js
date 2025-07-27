@@ -415,3 +415,25 @@ function enviarCarritoPorWhatsApp() {
   actualizarCarrito(); // vuelve a renderizar el carrito y contador
   showToast("Pedido enviado. El carrito ha sido vaciado.");
 }
+
+const modal = document.getElementById("imgModal");
+const modalImg = document.getElementById("modal-image");
+const closeBtn = document.querySelector(".cerrar-modal");
+
+document.getElementById("product-grid").addEventListener("click", (e) => {
+  const clickedImg = e.target.closest(".product-card img");
+  if (clickedImg) {
+    modalImg.src = clickedImg.src;
+    modal.style.display = "flex";
+  }
+});
+
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.style.display = "none";
+  }
+});
