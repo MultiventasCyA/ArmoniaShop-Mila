@@ -5,9 +5,9 @@ body {
   margin: 0;
   padding: 0;
 
-  /* display: grid;
+  display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 100vh; */
+  min-height: 100vh;
 }
 
 header {
@@ -208,7 +208,7 @@ figure img {
   max-width: 85%;
   max-height: 85%;
   border-radius: 1rem;
-  box-shadow: 0 0 24px rgba(0,0,0,0.3);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.3);
 }
 .cerrar-modal {
   position: absolute;
@@ -219,6 +219,7 @@ figure img {
   cursor: pointer;
 }
 
+/*Formualrio de Contacto*/
 #contact-form {
   display: flex;
   flex-direction: column;
@@ -442,6 +443,27 @@ textarea.error {
   box-shadow: 0 4px 16px rgba(30, 58, 138, 0.13);
   font-weight: 600;
   opacity: 0.97;
+}
+
+/*Boton hacia*/
+#btn-ir-arriba {
+  display: none; /* Oculto por defecto */
+  position: fixed; /* Posición fija en la pantalla */
+  bottom: 20px; /* A 20px del borde inferior */
+  right: 30px; /* A 30px del borde derecho */
+  z-index: 99; /* Asegura que esté sobre otros elementos */
+  border: none; /* Sin borde */
+  outline: none; /* Sin el contorno al hacer clic */
+  background-color: #555; /* Color de fondo oscuro */
+  color: white; /* Color del texto (flecha) */
+  cursor: pointer; /* Cursor de mano al pasar por encima */
+  padding: 15px; /* Relleno interno */
+  border-radius: 10px; /* Bordes redondeados */
+  font-size: 18px; /* Tamaño de la flecha */
+  transition: background-color 0.3s, opacity 0.5s; /* Transiciones suaves */
+}
+#btn-ir-arriba:hover {
+  background-color: #007bff; /* Cambia de color al pasar el mouse */
 }
 
 /** Animaciones suaves */

@@ -52,46 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("cart-panel").classList.remove("open");
   });
 
-  //? Validación del formulario de contacto
-  // const form = document.getElementById("contact-form");
-  // if (form) {
-  //   form.addEventListener("submit", function (e) {
-  //     e.preventDefault();
-  //     form.querySelectorAll("input, textarea").forEach(el => el.classList.remove("error"));
-
-  //     //? Limpiar mensajes previos
-  //     let errorMsg = form.querySelector(".form-error");
-  //     let successMsg = form.querySelector(".form-success");
-  //     if (errorMsg) errorMsg.remove();
-  //     if (successMsg) successMsg.remove();
-
-  //     const nombre = form.querySelector('input[type="text"]').value.trim();
-  //     const correo = form.querySelector('input[type="email"]').value.trim();
-  //     const mensaje = form.querySelector("textarea").value.trim();
-
-  //     //? Validaciones
-  //     if (!nombre || !correo || !mensaje) {
-  //       mostrarMensaje("Por favor, completa todos los campos.", "form-error");
-  //       return;
-  //     }
-  //     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(correo)) {
-  //       form.querySelector('input[type="email"]').classList.add("error");
-  //       return;
-  //     }
-
-  //     //? Si todo está bien
-  //     mostrarMensaje("¡Mensaje enviado correctamente!", "form-success");
-  //     form.reset();
-  //   });
-
-  //   function mostrarMensaje(texto, clase) {
-  //     const div = document.createElement("div");
-  //     div.textContent = texto;
-  //     div.className = clase;
-  //     form.insertBefore(div, form.querySelector("button"));
-  //   }
-  // }
-
   const form = document.getElementById("contact-form");
 
   if (form) {
@@ -251,11 +211,6 @@ function showToast(mensaje) {
     toast.remove();
   }, 2500);
 }
-
-// const toggleButton = document.getElementById("toggleMode");
-// toggleButton.addEventListener("click", () => {
-//   document.body.classList.toggle("dark-mode");
-// });
 
 //? rendezizar la lista del carrito y sumar precios
 //? Esta función se encarga de mostrar los productos en el carrito y calcular el total
@@ -448,3 +403,34 @@ modal.addEventListener("click", (e) => {
     modal.style.display = "none";
   }
 });
+
+//Dimanismo para el boton hacia arriba
+// 1. OBTENER REFERENCIAS A LOS ELEMENTOS
+const btnIrArriba = document.getElementById("btn-ir-arriba");
+
+// 2. DETECTAR EL SCROLL EN LA PÁGINA
+window.onscroll = function () {
+  controlarVisibilidadBoton();
+};
+
+function controlarVisibilidadBoton() {
+  // Si el scroll vertical es mayor a 20px, muestra el botón. Si no, lo oculta.
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    btnIrArriba.style.display = "block";
+  } else {
+    btnIrArriba.style.display = "none";
+  }
+}
+
+// 3. AÑADIR EL EVENTO CLICK AL BOTÓN
+btnIrArriba.addEventListener("click", function () {
+  irAlInicio();
+});
+
+function irAlInicio() {
+  // Esta función nos llevará al inicio de la página de forma suave
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
