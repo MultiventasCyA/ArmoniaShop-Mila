@@ -148,5 +148,137 @@
     "descripcion": "Hidrátate de una manera divertida y disfruta de la magia de Disney con el Vaso Stitch Betterware coleccionable. Cuenta con un hermoso diseño bi-tono de Stitch, capacidad de 700 ml y popote con anillo para evitar que se salga. Poliestireno y Polipropileno. Capacidad: 700 ml. D. 11 x 21 cm.",
     "precio": " $229.00 ",
     "imagen": "src/assets/img/BW/Vaso Stitch.png"
+  },
+  {
+    "nombre": "Esmalte para Uñas maltratadas con colageno",
+    "descripcion": "",
+    "precio": " $40.00 ",
+    "imagen": "src/assets/img/Ara/Esmalte para Uñas maltratadas con colageno.png"
+  },
+  {
+    "nombre": "Fragancia para Dama Luna Sweet",
+    "descripcion": "",
+    "precio": " $99.90 ",
+    "imagen": "src/assets/img/Ara/Fragancia para Dama Luna Sweet.png"
+  },
+  {
+    "nombre": "Crema Anti-humedad para Pies",
+    "descripcion": "",
+    "precio": " $59.90 ",
+    "imagen": "src/assets/img/sh/Crema Anti-humedad para Pies.png"
+  },
+  {
+    "nombre": "Crema reparadora hidratante",
+    "descripcion": "",
+    "precio": " $59.90 ",
+    "imagen": "src/assets/img/sh/Crema reparadora hidratante.png"
+  },
+  {
+    "nombre": "Drop Fiestas de Cereza",
+    "descripcion": "",
+    "precio": " $69.90 ",
+    "imagen": "src/assets/img/sh/Drop Fiestas de Cereza.png"
+  },
+  {
+    "nombre": "Flower Drop",
+    "descripcion": "",
+    "precio": " $69.90 ",
+    "imagen": "src/assets/img/sh/Flower Drop.png"
+  },
+  {
+    "nombre": "Fresca Pie",
+    "descripcion": "",
+    "precio": " $89.90 ",
+    "imagen": "src/assets/img/sh/Fresca Pie.png"
+  },
+  {
+    "nombre": "Gel Desinfectante para inodoro",
+    "descripcion": "",
+    "precio": " $99.90 ",
+    "imagen": "src/assets/img/sh/Gel Desinfectante para inodoro.png"
+  },
+  {
+    "nombre": "Kiotis - plus d'amour",
+    "descripcion": "",
+    "precio": " $225.00 ",
+    "imagen": "src/assets/img/sh/Kiotis - plus d'amour.png"
+  },
+  {
+    "nombre": "Kiotis Enjoyable Girl",
+    "descripcion": "",
+    "precio": " $89.90 ",
+    "imagen": "src/assets/img/sh/Kiotis Enjoyable Girl.png"
+  },
+  {
+    "nombre": "Kiotis Goodness - Agua de Tocador",
+    "descripcion": "",
+    "precio": " $89.90 ",
+    "imagen": "src/assets/img/sh/Kiotis Goodness - Agua de Tocador.png"
+  },
+  {
+    "nombre": "Pavanelle Crema Facial Dia y Noche",
+    "descripcion": "",
+    "precio": " $99.90 ",
+    "imagen": "src/assets/img/sh/Pavanelle Crema Facial Dia y Noche.png"
+  },
+  {
+    "nombre": "Pre-Poop Spray",
+    "descripcion": "",
+    "precio": " $49.90 ",
+    "imagen": "src/assets/img/sh/Pre-Poop Spray.png"
+  },
+  {
+    "nombre": "Blue Ray (medio uso).jpg",
+    "descripcion": "",
+    "precio": " $150.00 ",
+    "imagen": "src/assets/img/varios/Blue Ray (medio uso).jpg"
+  },
+  {
+    "nombre": "Cartera dama 1",
+    "descripcion": "",
+    "precio": " $150.00 ",
+    "imagen": "src/assets/img/varios/Cartera dama 1.png"
+  },
+  {
+    "nombre": "Cartera dama 2",
+    "descripcion": "",
+    "precio": " $150.00 ",
+    "imagen": "src/assets/img/varios/Cartera dama 2.png"
+  },
+  {
+    "nombre": "Juego 4 Vasos Maravilla Con Tapa.jpg",
+    "descripcion": "",
+    "precio": " $180.00 ",
+    "imagen": "src/assets/img/varios/Juego 4 Vasos Maravilla Con Tapa.jpg"
+  },
+  {
+    "nombre": "Juego 4 Vasos Murano 500Ml Morado.jpg",
+    "descripcion": "",
+    "precio": " $99.00 ",
+    "imagen": "src/assets/img/varios/Juego 4 Vasos Murano 500Ml Morado.jpg"
+  },
+  {
+    "nombre": "Licuadora (con detalle).jpg",
+    "descripcion": "",
+    "precio": " $200.00 ",
+    "imagen": "src/assets/img/varios/Licuadora (con detalle).jpg"
+  },
+  {
+    "nombre": "Perfume para dama y caballero de bolsillo.jpg",
+    "descripcion": "",
+    "precio": " $49.00 ",
+    "imagen": "src/assets/img/varios/Perfume para dama y caballero de bolsillo.jpg"
+  },
+  {
+    "nombre": "Pinzas para Cabello 1.jpg",
+    "descripcion": "",
+    "precio": " $20.00 ",
+    "imagen": "src/assets/img/varios/Pinzas para Cabello 1.jpg"
+  },
+  {
+    "nombre": "Pinzas para Cabello 2.jpg",
+    "descripcion": "",
+    "precio": " $20.00 ",
+    "imagen": "src/assets/img/varios/Pinzas para Cabello 2.jpg"
   }
 ]
