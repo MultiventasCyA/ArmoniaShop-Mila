@@ -151,79 +151,79 @@
   },
   {
     "nombre": "Esmalte para Uñas maltratadas con colageno",
-    "descripcion": "",
+    "descripcion": "Este esmalte está formulado con colágeno para ayudar a nutrir y mejorar las uñas dañadas.",
     "precio": " $40.00 ",
     "imagen": "src/assets/img/Ara/Esmalte para Uñas maltratadas con colageno.png"
   },
   {
     "nombre": "Fragancia para Dama Luna Sweet",
-    "descripcion": "",
+    "descripcion": "Descubre la esencia cautivadora de Arabela Luna Sweet, una fragancia diseñada especialmente para la mujer moderna que busca destacar en cada ocasión.",
     "precio": " $99.90 ",
     "imagen": "src/assets/img/Ara/Fragancia para Dama Luna Sweet.png"
   },
   {
     "nombre": "Crema Anti-humedad para Pies",
-    "descripcion": "",
+    "descripcion": "La crema antihumedad para pies Stanhome Pedi-Mist Cream contiene extracto de semilla de toronja, aceite de té limón y bisabolol, ofreciendo un efecto antitranspirante que controla la humedad y una acción antimicrobiana que evita la formación del 99.999% de las bacterias que causan el mal olor.",
     "precio": " $59.90 ",
     "imagen": "src/assets/img/sh/Crema Anti-humedad para Pies.png"
   },
   {
     "nombre": "Crema reparadora hidratante",
-    "descripcion": "",
+    "descripcion": "La Pomada Mágica es una crema reparadora e hidratante que ayuda a restaurar la piel seca y agrietada, proporcionando alivio inmediato. Formulada con ingredientes que nutren profundamente la piel, es ideal para zonas afectadas por la sequedad extrema, como codos, talones y rodillas.",
     "precio": " $59.90 ",
     "imagen": "src/assets/img/sh/Crema reparadora hidratante.png"
   },
   {
     "nombre": "Drop Fiestas de Cereza",
-    "descripcion": "",
+    "descripcion": "El producto Drop Fiestas de Cerezas es un neutralizador de olores concentrado con una fragancia dulce y vibrante a cereza, diseñado para eliminar malos olores en espacios como baños, tuberías, botes de basura, aspiradoras y cocinas.",
     "precio": " $69.90 ",
     "imagen": "src/assets/img/sh/Drop Fiestas de Cereza.png"
   },
   {
     "nombre": "Flower Drop",
-    "descripcion": "",
+    "descripcion": "El Flower Drop de Stanhome es un neutralizador de olores concentrado diseñado para eliminar malos olores de baños, tuberías, basura, aspiradoras y otros espacios, sin solo enmascararlos sino neutralizándolos eficazmente.",
     "precio": " $69.90 ",
     "imagen": "src/assets/img/sh/Flower Drop.png"
   },
   {
     "nombre": "Fresca Pie",
-    "descripcion": "",
+    "descripcion": "Dale a tus pies y piernas el descanso que merecen con Fresca Pie® Ice 300 ML, una loción de efecto frío que brinda descanso inmediata gracias a su fórmula con doble mentol. Perfecta para esos días largos y agotadores, ayuda a tonificar los músculos, estimula la circulación y reduce la sensación de hinchazón.",
     "precio": " $89.90 ",
     "imagen": "src/assets/img/sh/Fresca Pie.png"
   },
   {
     "nombre": "Gel Desinfectante para inodoro",
-    "descripcion": "",
+    "descripcion": "El desinfectante para inodoro Stanhome está disponible en varias variantes, cada una con características específicas. El Ultra Active WC White 500 ML es un gel abrillantador desinfectante que elimina el 99,99% de bacterias y hongos comunes.",
     "precio": " $99.90 ",
     "imagen": "src/assets/img/sh/Gel Desinfectante para inodoro.png"
   },
   {
     "nombre": "Kiotis - plus d'amour",
-    "descripcion": "",
+    "descripcion": "Kiotis Plus D'Amour es un perfume para mujer de tipo Eau de parfum con una fragancia floral oriental, disponible en un volumen de 100 mL. La fragancia se caracteriza por una combinación cautivadora de magnolia, jazmín y gardenia.",
     "precio": " $225.00 ",
     "imagen": "src/assets/img/sh/Kiotis - plus d'amour.png"
   },
   {
     "nombre": "Kiotis Enjoyable Girl",
-    "descripcion": "",
+    "descripcion": "Kiotis Enjoyable Girl es un perfume para mujer con una presentación de 100 ml. Su fragancia comienza con una salida efervescente y vibrante que combina pera y mandarina, creando un aroma embaucador y adictivo.",
     "precio": " $89.90 ",
     "imagen": "src/assets/img/sh/Kiotis Enjoyable Girl.png"
   },
   {
     "nombre": "Kiotis Goodness - Agua de Tocador",
-    "descripcion": "",
+    "descripcion": "El Stanhome Kiotis Goodness Eau De Toilette 100 Ml es una fragancia diseñada para mujeres, perteneciente a la familia olfativa floral-frutal",
     "precio": " $89.90 ",
     "imagen": "src/assets/img/sh/Kiotis Goodness - Agua de Tocador.png"
   },
   {
     "nombre": "Pavanelle Crema Facial Dia y Noche",
-    "descripcion": "",
+    "descripcion": "La crema facial Pavan'elle Illumine de Kiotis es una fórmula diseñada para uso diurno y nocturno que contiene colágeno y elastina, ingredientes que ayudan a hidratar la piel, disminuir la pérdida de agua, proporcionar elasticidad y firmeza, y retardar la aparición de líneas de expresión.",
     "precio": " $99.90 ",
     "imagen": "src/assets/img/sh/Pavanelle Crema Facial Dia y Noche.png"
   },
   {
     "nombre": "Pre-Poop Spray",
-    "descripcion": "",
+    "descripcion": "Pre-Poop Spray es un neutralizador de olores diseñado para ser utilizado antes de usar el inodoro, creando una capa protectora sobre la superficie del agua que atrapa los malos olores y proporciona una experiencia más agradable y fresca.",
     "precio": " $49.90 ",
     "imagen": "src/assets/img/sh/Pre-Poop Spray.png"
   },
@@ -259,7 +259,7 @@
   },
   {
     "nombre": "Licuadora (con detalle).jpg",
-    "descripcion": "",
+    "descripcion": "Medio uso, tiene un detalle, pero aun asi funciona bien.",
     "precio": " $200.00 ",
     "imagen": "src/assets/img/varios/Licuadora (con detalle).jpg"
   },
