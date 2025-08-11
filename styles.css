@@ -127,6 +127,10 @@ figure img {
 }
 
 .product-card {
+  display: grid;
+  grid-template-columns: auto;
+  place-items: center;
+  
   background: #fff;
   border-radius: 1rem;
   box-shadow: 0 4px 16px rgba(30, 58, 138, 0.1);
@@ -168,6 +172,7 @@ figure img {
   font-size: 1.25rem;
 }
 .product-card button {
+  width: 100px;
   background: #3b82f6;
   color: #fff;
   border: none;
