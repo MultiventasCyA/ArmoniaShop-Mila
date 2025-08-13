@@ -228,7 +228,7 @@
     "imagen": "src/assets/img/sh/Pre-Poop Spray.png"
   },
   {
-    "nombre": "Blue Ray (medio uso).jpg",
+    "nombre": "Blue Ray (medio uso)",
     "descripcion": "",
     "precio": " $150.00 ",
     "imagen": "src/assets/img/varios/Blue Ray (medio uso).jpg"
@@ -246,39 +246,51 @@
     "imagen": "src/assets/img/varios/Cartera dama 2.png"
   },
   {
-    "nombre": "Juego 4 Vasos Maravilla Con Tapa.jpg",
+    "nombre": "Juego 4 Vasos Maravilla Con Tapa",
     "descripcion": "",
     "precio": " $180.00 ",
     "imagen": "src/assets/img/varios/Juego 4 Vasos Maravilla Con Tapa.jpg"
   },
   {
-    "nombre": "Juego 4 Vasos Murano 500Ml Morado.jpg",
+    "nombre": "Juego 4 Vasos Murano 500Ml Morado",
     "descripcion": "",
     "precio": " $99.00 ",
     "imagen": "src/assets/img/varios/Juego 4 Vasos Murano 500Ml Morado.jpg"
   },
   {
-    "nombre": "Licuadora (con detalle).jpg",
+    "nombre": "Licuadora (con detalle)",
     "descripcion": "Medio uso, tiene un detalle, pero aun asi funciona bien.",
     "precio": " $200.00 ",
     "imagen": "src/assets/img/varios/Licuadora (con detalle).jpg"
   },
   {
-    "nombre": "Perfume para dama y caballero de bolsillo.jpg",
+    "nombre": "Perfume para dama y caballero de bolsillo.",
     "descripcion": "",
     "precio": " $49.00 ",
     "imagen": "src/assets/img/varios/Perfume para dama y caballero de bolsillo.jpg"
   },
   {
-    "nombre": "Pinzas para Cabello 1.jpg",
+    "nombre": "Pinzas para Cabello 1.",
     "descripcion": "",
     "precio": " $20.00 ",
     "imagen": "src/assets/img/varios/Pinzas para Cabello 1.jpg"
   },
   {
-    "nombre": "Pinzas para Cabello 2.jpg",
+    "nombre": "Pinzas para Cabello 2.",
     "descripcion": "",
     "precio": " $20.00 ",
     "imagen": "src/assets/img/varios/Pinzas para Cabello 2.jpg"
+  },
+  {
+    "nombre": "Monomando Mezcladora Dica 4433",
+    "descripcion": "El monomando para lavabo DICA 4433 es un grifo de tipo monocomando diseñado para instalación en mesadas o paredes, con un cuerpo fabricado en latón y un cartucho cerámico para un cierre preciso y duradero",
+    "precio": " $800.00 ",
+    "imagen": "src/assets/img/varios/Monomando Mezcladora Dica 4433.png"
+  },
+  {
+    "nombre": "Llave para Jardin 4019DM.",
+    "descripcion": "La llave para jardín modelo 4019DM es un producto de la marca DICA, diseñado con un cartucho de 1/4 de vuelta para un funcionamiento óptimo y ecológico, con una presión de trabajo que va desde 1 hasta 3 kg/cm².",
+    "precio": " $200.00 ",
+    "imagen": "src/assets/img/varios/Llave para Jardin 4019DM.jpg"
   }
 ]
