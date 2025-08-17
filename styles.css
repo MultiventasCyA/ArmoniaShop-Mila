@@ -1,7 +1,39 @@
+:root {
+  --primary-color: #1e3a8a;
+  --secondary-color: #3b82f6;
+  --accent-color: #fbbf24;
+  --background-gradient-start: #e0f2fe;
+  --background-gradient-end: #c7d2fe;
+  --text-color: #4b5563;
+  --text-color-light: #e0e7ff;
+  --white: #ffffff;
+  --success-color: #22c55e;
+  --error-color: #dc2626;
+  --error-background: #fee2e2;
+  --success-background: #bbf7d0;
+  --border-color: #e0e7ef;
+  --button-hover-color: #1e40af;
+  --remove-btn-background: #e20000;
+  --remove-btn-hover-text: #ff0000;
+  --clear-cart-btn-background: #ef4444;
+  --clear-cart-btn-hover-background: #b91c1c;
+  --whatsapp-green: #25d366;
+  --whatsapp-green-dark: #128c7e;
+  --price-color: #219ebc;
+  --input-background: #f1f5f9;
+  --form-error-border: #fca5a5;
+  --form-success-text: #166534;
+  --form-success-border: #4ade80;
+  --error-border: crimson;
+  --error-background-dark: #2c2c2c;
+  --btn-up-background: #555;
+  --btn-up-hover-background: #007bff;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to bottom right, #e0f2fe, #c7d2fe);
-  color: #4b5563;
+  background: linear-gradient(to bottom right, var(--background-gradient-start), var(--background-gradient-end));
+  color: var(--text-color);
   margin: 0;
   padding: 0;
 
@@ -11,8 +43,8 @@ body {
 }
 
 header {
-  background: linear-gradient(to right, #1e3a8a, #3b82f6);
-  color: white;
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  color: var(--white);
   padding: 1rem;
   position: sticky;
   top: 0;
@@ -40,7 +72,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #fbbf24;
+  color: var(--accent-color);
 }
 
 main {
@@ -50,14 +82,14 @@ main {
 section {
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background: white;
+  background: var(--white);
   border-radius: 0.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-  background: #1e3a8a;
-  color: white;
+  background: var(--primary-color);
+  color: var(--white);
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
@@ -68,7 +100,7 @@ footer {
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 0.3rem;
-  color: #e0e7ff;
+  color: var(--text-color-light);
 }
 .social-icons {
   margin-top: 1rem;
@@ -77,19 +109,19 @@ footer {
   gap: 1rem;
 }
 .social-link {
-  color: #ffffff; /* íconos en blanco */
+  color: var(--white); /* íconos en blanco */
   font-size: 1.4rem;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 .social-link:hover {
-  color: #e0e7ff; /* un azul claro o blanco suave al pasar */
+  color: var(--text-color-light); /* un azul claro o blanco suave al pasar */
   transform: scale(1.2); /* animación de escala */
 }
 
 .logo {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #fbbf24;
+  color: var(--accent-color);
 }
 
 figure {
@@ -131,14 +163,14 @@ figure img {
   grid-template-columns: auto;
   place-items: center;
   
-  background: #fff;
+  background: var(--white);
   border-radius: 1rem;
   box-shadow: 0 4px 16px rgba(30, 58, 138, 0.1);
   padding: 1.5rem 1rem 1.5rem 1rem;
   width: 260px;
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
-  border: 1px solid #e0e7ef;
+  border: 1px solid var(--border-color);
   position: relative;
 }
 .product-card:hover {
@@ -155,11 +187,11 @@ figure img {
 .product-card h3 {
   margin: 0.5rem 0 0.25rem 0;
   font-size: 1.25rem;
-  color: #1e3a8a;
+  color: var(--primary-color);
   font-weight: 700;
 }
 .product-card p {
-  color: #64748b;
+  color: var(--text-color);
   font-size: 0.75rem;
   margin-bottom: 0.5rem;
   min-height: 48px;
@@ -168,13 +200,13 @@ figure img {
   display: block;
   margin: 0.5rem 0 1rem 0;
   font-weight: bold;
-  color: #219ebc;
+  color: var(--price-color);
   font-size: 1.25rem;
 }
 .product-card button {
   width: 100px;
-  background: #3b82f6;
-  color: #fff;
+  background: var(--secondary-color);
+  color: var(--white);
   border: none;
   border-radius: 999px;
   padding: 0.5rem 1.5rem;
@@ -184,14 +216,14 @@ figure img {
   box-shadow: 0 2px 8px rgba(59, 130, 246, 0.08);
 }
 .product-card button:hover {
-  background: #1e40af;
+  background: var(--button-hover-color);
   transform: scale(1.05);
 }
 .product-card button.added {
-  background: #22c55e;
-  color: #fff;
+  background: var(--success-color);
+  color: var(--white);
   transform: scale(1.12);
-  box-shadow: 0 0 0 2px #bbf7d0;
+  box-shadow: 0 0 0 2px var(--success-background);
   transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
 }
 
@@ -205,6 +237,7 @@ figure img {
   display: none;
   justify-content: center;
   align-items: center;
+  -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 9999;
@@ -220,7 +253,7 @@ figure img {
   top: 2rem;
   right: 2.5rem;
   font-size: 2rem;
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
 }
 
@@ -235,10 +268,10 @@ figure img {
 #contact-form input,
 #contact-form textarea {
   padding: 0.75rem 1rem;
-  border: 1px solid #cbd5e1;
+  border: 1px solid var(--border-color);
   border-radius: 0.5rem;
   font-size: 1rem;
-  background: #f1f5f9;
+  background: var(--input-background);
   transition: border 0.2s;
   resize: none;
 }
@@ -247,14 +280,14 @@ figure img {
 }
 #contact-form input:focus,
 #contact-form textarea:focus {
-  border: 1.5px solid #3b82f6;
+  border: 1.5px solid var(--secondary-color);
   outline: none;
-  background: #fff;
+  background: var(--white);
   transition: border 0.3s ease;
 }
 #contact-form button {
-  background: #3b82f6;
-  color: #fff;
+  background: var(--secondary-color);
+  color: var(--white);
   border: none;
   border-radius: 999px;
   padding: 0.75rem 1.5rem;
@@ -265,14 +298,14 @@ figure img {
   box-shadow: 0 2px 8px rgba(59, 130, 246, 0.08);
 }
 #contact-form button:hover {
-  background: #1e40af;
+  background: var(--button-hover-color);
   transform: scale(1.05);
 }
 
 .form-error {
-  color: #dc2626;
-  background: #fee2e2;
-  border: 1px solid #fca5a5;
+  color: var(--error-color);
+  background: var(--error-background);
+  border: 1px solid var(--form-error-border);
   border-radius: 0.5rem;
   padding: 0.75rem 1rem;
   margin-bottom: 0.5rem;
@@ -280,9 +313,9 @@ figure img {
   font-weight: 500;
 }
 .form-success {
-  color: #166534;
-  background: #bbf7d0;
-  border: 1px solid #4ade80;
+  color: var(--form-success-text);
+  background: var(--success-background);
+  border: 1px solid var(--form-success-border);
   border-radius: 0.5rem;
   padding: 0.75rem 1rem;
   margin-bottom: 0.5rem;
@@ -291,8 +324,8 @@ figure img {
 }
 input.error,
 textarea.error {
-  border: 2px solid crimson;
-  background-color: #2c2c2c;
+  border: 2px solid var(--error-border);
+  background-color: var(--error-background-dark);
 }
 
 .mapa-contacto {
@@ -304,8 +337,8 @@ textarea.error {
 
 .cart-indicator {
   font-size: 1.3rem;
-  background: #fbbf24;
-  color: #1e3a8a;
+  background: var(--accent-color);
+  color: var(--primary-color);
   padding: 0.3rem 1rem;
   border-radius: 999px;
   font-weight: 700;
@@ -327,7 +360,7 @@ textarea.error {
   width: 100%;
   max-width: 325px;
   height: 100vh; /* ocupa todo el viewport */
-  background: #fff;
+  background: var(--white);
   box-shadow: -4px 0 24px rgba(30, 58, 138, 0.12);
   z-index: 1000;
   display: flex;
@@ -343,7 +376,7 @@ textarea.error {
 }
 .cart-panel h3 {
   margin-bottom: 1rem;
-  color: #1e3a8a;
+  color: var(--primary-color);
   font-size: 1.2rem;
   font-weight: 700;
   text-align: center;
@@ -356,7 +389,7 @@ textarea.error {
   max-height: 50vh; /* controla cuánto puede crecer */
 }
 #cart-list li {
-  border-bottom: 1px solid #e0e7ef;
+  border-bottom: 1px solid var(--border-color);
   padding: 0.5rem 0;
   display: flex;
   justify-content: space-between;
@@ -364,8 +397,8 @@ textarea.error {
   font-size: 1rem;
 }
 .close-cart-btn {
-  background: #3b82f6;
-  color: #fff;
+  background: var(--secondary-color);
+  color: var(--white);
   border: none;
   border-radius: 999px;
   padding: 0.5rem 1.5rem;
@@ -375,11 +408,11 @@ textarea.error {
   transition: background 0.2s;
 }
 .close-cart-btn:hover {
-  background: #1e40af;
+  background: var(--button-hover-color);
 }
 .whatsapp-btn {
-  background-color: #25d366; /* WhatsApp green */
-  color: white;
+  background-color: var(--whatsapp-green); /* WhatsApp green */
+  color: var(--white);
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.5rem;
@@ -387,25 +420,24 @@ textarea.error {
 }
 
 .whatsapp-btn:hover {
-  background-color: #128c7e; /* Darker green on hover */
+  background-color: var(--whatsapp-green-dark); /* Darker green on hover */
 }
 .remove-btn {
-  background: #e20000;
+  background: var(--remove-btn-background);
   border-radius: 5px;
-  color: #ffffff;
+  color: var(--white);
   cursor: pointer;
   font-size: 1rem;
-  transition: color 0.2s;
+  transition: color 0.2s, background-color 0.5s;
 }
 .remove-btn:hover {
-  color: #ff0000;
-  background-color: #ffffff;
-  transition: ease-in-out, background-color 0.5s ease-in-out;
+  color: var(--remove-btn-hover-text);
+  background-color: var(--white);
 }
 
 .clear-cart-btn {
-  background: #ef4444;
-  color: #fff;
+  background: var(--clear-cart-btn-background);
+  color: var(--white);
   border: none;
   border-radius: 999px;
   padding: 0.5rem 1.5rem;
@@ -416,7 +448,7 @@ textarea.error {
   transition: background 0.2s;
 }
 .clear-cart-btn:hover {
-  background: #b91c1c;
+  background: var(--clear-cart-btn-hover-background);
 }
 
 /*menu hamburguesa*/
@@ -425,7 +457,7 @@ textarea.error {
   background: none;
   border: none;
   font-size: 2rem;
-  color: #1e3a8a;
+  color: var(--primary-color);
   cursor: pointer;
   margin-left: auto;
 }
@@ -441,8 +473,8 @@ textarea.error {
   gap: 0.7rem;
 }
 .toast {
-  background: #1e3a8a;
-  color: #fff;
+  background: var(--primary-color);
+  color: var(--white);
   padding: 1rem 1.5rem;
   border-radius: 0.7rem;
   box-shadow: 0 4px 16px rgba(30, 58, 138, 0.13);
@@ -459,8 +491,8 @@ textarea.error {
   z-index: 99; /* Asegura que esté sobre otros elementos */
   border: none; /* Sin borde */
   outline: none; /* Sin el contorno al hacer clic */
-  background-color: #555; /* Color de fondo oscuro */
-  color: white; /* Color del texto (flecha) */
+  background-color: var(--btn-up-background); /* Color de fondo oscuro */
+  color: var(--white); /* Color del texto (flecha) */
   cursor: pointer; /* Cursor de mano al pasar por encima */
   padding: 15px; /* Relleno interno */
   border-radius: 10px; /* Bordes redondeados */
@@ -468,7 +500,7 @@ textarea.error {
   transition: background-color 0.3s, opacity 0.5s; /* Transiciones suaves */
 }
 #btn-ir-arriba:hover {
-  background-color: #007bff; /* Cambia de color al pasar el mouse */
+  background-color: var(--btn-up-hover-background); /* Cambia de color al pasar el mouse */
 }
 
 /** Animaciones suaves */
@@ -517,7 +549,7 @@ textarea.error {
     display: none;
     flex-direction: column;
     width: 100%;
-    background: #fff;
+    background: var(--white);
     position: absolute;
     top: 60px;
     left: 0;
@@ -528,16 +560,16 @@ textarea.error {
     display: flex !important;
   }
   .nav-links.open a {
-    color: #1e3a8a;
+    color: var(--primary-color);
     padding: 1rem 0.5rem;
-    border-bottom: 1px solid #e0e7ef;
+    border-bottom: 1px solid var(--border-color);
     width: 100%;
     display: block;
     text-align: left;
   }
   .nav-links.open a:hover {
-    color: #fbbf24;
-    background: #e0e7ef;
+    color: var(--accent-color);
+    background: var(--border-color);
   }
   .menu-toggle {
     display: block;
@@ -573,8 +605,8 @@ textarea.error {
     margin-top: 1rem;
   }
   .toast {
-    background: #1e3a8a;
-    color: #fff;
+    background: var(--primary-color);
+    color: var(--white);
     padding: 0.5rem 1rem; /* ← reducido */
     border-radius: 0.5rem; /* ← más compacto */
     box-shadow: 0 2px 8px rgba(30, 58, 138, 0.1); /* ← sombra más suave */
