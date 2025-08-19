@@ -298,5 +298,11 @@
     "descripcion": "La Huawei Band 7 es una pulsera inteligente que combina características de una pulsera de actividad con funciones de un smartwatch, destacando por su diseño compacto y estilizado. Cuenta con una pantalla AMOLED de 1.47 pulgadas.",
     "precio": " $449.00 ",
     "imagen": "src/assets/img/varios/Huawei Band 7 Rosa.jpg"
+  },
+  {
+    "nombre": "Teclado Gamer ZIYOU LANG Iluminado (Usado).",
+    "descripcion": "Iluminación LED tipo arcoíris (Rainbow) que se ve genial en la oscuridad. Teclado completo en Español (¡con la letra Ñ!). Diseño tipo mecánico con todas sus teclas funcionales. Perfecto para jugar o para darle un toque diferente a tu setup. Conexión por USB, solo lo conectas y listo.",
+    "precio": " $99.00 ",
+    "imagen": "src/assets/img/varios/Teclado Gamer ZIYOU LANG Iluminado.jpg"
   }
 ]
