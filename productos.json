@@ -292,11 +292,5 @@
     "descripcion": "La llave para jardín modelo 4019DM es un producto de la marca DICA, diseñado con un cartucho de 1/4 de vuelta para un funcionamiento óptimo y ecológico, con una presión de trabajo que va desde 1 hasta 3 kg/cm².",
     "precio": " $200.00 ",
     "imagen": "src/assets/img/varios/Llave para Jardin 4019DM.jpg"
-  },
-  {
-    "nombre": "Teclado Gamer ZIYOU LANG Iluminado (Usado).",
-    "descripcion": "Iluminación LED tipo arcoíris (Rainbow) que se ve genial en la oscuridad. Teclado completo en Español (¡con la letra Ñ!). Diseño tipo mecánico con todas sus teclas funcionales. Perfecto para jugar o para darle un toque diferente a tu setup. Conexión por USB, solo lo conectas y listo.",
-    "precio": " $99.00 ",
-    "imagen": "src/assets/img/varios/Teclado Gamer ZIYOU LANG Iluminado.jpg"
   }
 ]
