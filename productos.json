@@ -292,5 +292,17 @@
     "descripcion": "La llave para jardín modelo 4019DM es un producto de la marca DICA, diseñado con un cartucho de 1/4 de vuelta para un funcionamiento óptimo y ecológico, con una presión de trabajo que va desde 1 hasta 3 kg/cm².",
     "precio": " $200.00 ",
     "imagen": "src/assets/img/varios/Llave para Jardin 4019DM.jpg"
+  },
+  {
+    "nombre": "Llave Para Manguera Compacta Con Rosca 4119C Dica.",
+    "descripcion": "La Llave Para Manguera Compacta Con Rosca 4119C Dica es una válvula de paso diseñada para controlar el flujo de agua en instalaciones domésticas y comerciales, ideal para jardines, patios, lavaderos y sistemas de riego. Su diseño compacto permite su instalación en espacios reducidos.",
+    "precio": " $50.00 ",
+    "imagen": "src/assets/img/varios/Llave Para Manguera Compacta Con Rosca 4119C Dica.PNG"
+  },
+  {
+    "nombre": "Portalampara de Porcelana Redondo para Techo 4 E26.",
+    "descripcion": "La portalámpara de porcelana redonda para techo 4 con base E26 es un accesorio eléctrico diseñado para instalación de luminarias en techos o paredes. Fabricada en cerámica esmaltada, ofrece alta resistencia al calor (hasta 350°C) y durabilidad, ideal para uso doméstico e industrial.",
+    "precio": " $60.00 ",
+    "imagen": "src/assets/img/varios/Portalampara de Porcelana Redondo para Techo 4 E26.png"
   }
 ]
