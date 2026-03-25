@@ -32,7 +32,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to bottom right, var(--background-gradient-start), var(--background-gradient-end));
+  background: linear-gradient(
+    to bottom right,
+    var(--background-gradient-start),
+    var(--background-gradient-end)
+  );
   color: var(--text-color);
   margin: 0;
   padding: 0;
@@ -43,7 +47,11 @@ body {
 }
 
 header {
-  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  background: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
   color: var(--white);
   padding: 1rem;
   position: sticky;
@@ -111,7 +119,9 @@ footer {
 .social-link {
   color: var(--white); /* íconos en blanco */
   font-size: 1.4rem;
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
 }
 .social-link:hover {
   color: var(--text-color-light); /* un azul claro o blanco suave al pasar */
@@ -162,14 +172,16 @@ figure img {
   display: grid;
   grid-template-columns: auto;
   place-items: center;
-  
+
   background: var(--white);
   border-radius: 1rem;
   box-shadow: 0 4px 16px rgba(30, 58, 138, 0.1);
   padding: 1.5rem 1rem 1.5rem 1rem;
   width: 260px;
   text-align: center;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
   border: 1px solid var(--border-color);
   position: relative;
 }
@@ -194,6 +206,7 @@ figure img {
   color: var(--text-color);
   font-size: 0.75rem;
   margin-bottom: 0.5rem;
+  text-align: justify;
   min-height: 48px;
 }
 .product-card .precio {
@@ -212,7 +225,9 @@ figure img {
   padding: 0.5rem 1.5rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s, transform 0.2s;
+  transition:
+    background 0.2s,
+    transform 0.2s;
   box-shadow: 0 2px 8px rgba(59, 130, 246, 0.08);
 }
 .product-card button:hover {
@@ -224,7 +239,10 @@ figure img {
   color: var(--white);
   transform: scale(1.12);
   box-shadow: 0 0 0 2px var(--success-background);
-  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+  transition:
+    background 0.2s,
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 /* Modal overlay */
@@ -294,7 +312,9 @@ figure img {
   font-weight: 600;
   font-size: 1rem;
   cursor: pointer;
-  transition: background 0.2s, transform 0.2s;
+  transition:
+    background 0.2s,
+    transform 0.2s;
   box-shadow: 0 2px 8px rgba(59, 130, 246, 0.08);
 }
 #contact-form button:hover {
@@ -428,7 +448,9 @@ textarea.error {
   color: var(--white);
   cursor: pointer;
   font-size: 1rem;
-  transition: color 0.2s, background-color 0.5s;
+  transition:
+    color 0.2s,
+    background-color 0.5s;
 }
 .remove-btn:hover {
   color: var(--remove-btn-hover-text);
@@ -461,7 +483,6 @@ textarea.error {
   cursor: pointer;
   margin-left: auto;
 }
-
 
 /*Ventanas emergentes*/
 #toast-container {
@@ -498,10 +519,14 @@ textarea.error {
   padding: 15px; /* Relleno interno */
   border-radius: 10px; /* Bordes redondeados */
   font-size: 18px; /* Tamaño de la flecha */
-  transition: background-color 0.3s, opacity 0.5s; /* Transiciones suaves */
+  transition:
+    background-color 0.3s,
+    opacity 0.5s; /* Transiciones suaves */
 }
 #btn-ir-arriba:hover {
-  background-color: var(--btn-up-hover-background); /* Cambia de color al pasar el mouse */
+  background-color: var(
+    --btn-up-hover-background
+  ); /* Cambia de color al pasar el mouse */
 }
 
 /** Animaciones suaves */

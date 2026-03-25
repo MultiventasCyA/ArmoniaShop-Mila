@@ -229,49 +229,49 @@
   },
   {
     "nombre": "Blue Ray (medio uso)",
-    "descripcion": "",
+    "descripcion": "Sistema Blue Ray de segunda mano, en buen estado. Ideal para disfrutar de tus películas favoritas con una calidad de imagen mejorada. Compatible con discos Blu-ray y DVD, este dispositivo te permitirá revivir tus momentos de entretenimiento con una experiencia visual impresionante.",
     "precio": " $150.00 ",
     "imagen": "src/assets/img/varios/Blue Ray (medio uso).jpg"
   },
   {
     "nombre": "Cartera dama 1",
-    "descripcion": "",
+    "descripcion": "Bonita cartera para dama, ideal para complementar tu outfit con un toque de elegancia. Con un diseño moderno y funcional, esta cartera cuenta con compartimentos espaciosos para organizar tus pertenencias de manera eficiente. Su material de alta calidad garantiza durabilidad y resistencia, mientras que su estilo versátil la hace perfecta para cualquier ocasión, desde eventos formales hasta salidas casuales.",
     "precio": " $150.00 ",
     "imagen": "src/assets/img/varios/Cartera dama 1.png"
   },
   {
     "nombre": "Cartera dama 2",
-    "descripcion": "",
+    "descripcion": "Bonita cartera para dama, ideal para complementar tu outfit con un toque de elegancia. Con un diseño moderno y funcional, esta cartera cuenta con compartimentos espaciosos para organizar tus pertenencias de manera eficiente. Su material de alta calidad garantiza durabilidad y resistencia, mientras que su estilo versátil la hace perfecta para cualquier ocasión, desde eventos formales hasta salidas casuales.",
     "precio": " $150.00 ",
     "imagen": "src/assets/img/varios/Cartera dama 2.png"
   },
   {
     "nombre": "Juego 4 Vasos Maravilla Con Tapa",
-    "descripcion": "",
+    "descripcion": "Lindos vasos con un diseño elegante y moderno, ideales para disfrutar de tus bebidas favoritas. Con una capacidad de 500 ml, estos vasos son perfectos para servir agua, jugos, cócteles o cualquier otra bebida. Su color morado agrega un toque de sofisticación a tu mesa, haciendo que cada sorbo sea una experiencia visual y gustativa única.",
     "precio": " $180.00 ",
     "imagen": "src/assets/img/varios/Juego 4 Vasos Maravilla Con Tapa.jpg"
   },
   {
     "nombre": "Juego 4 Vasos Murano 500Ml Morado",
-    "descripcion": "",
+    "descripcion": "Lindos vasos con un diseño elegante y moderno, ideales para disfrutar de tus bebidas favoritas. Con una capacidad de 500 ml, estos vasos son perfectos para servir agua, jugos, cócteles o cualquier otra bebida. Su color morado agrega un toque de sofisticación a tu mesa, haciendo que cada sorbo sea una experiencia visual y gustativa única.",
     "precio": " $99.00 ",
     "imagen": "src/assets/img/varios/Juego 4 Vasos Murano 500Ml Morado.jpg"
   },
   {
     "nombre": "Perfume para dama y caballero de bolsillo.",
-    "descripcion": "",
+    "descripcion": "Excelentes aromas para dama y caballero, ideales para llevar en el bolso o en el bolsillo. Su tamaño compacto los hace perfectos para refrescarse durante el día o para ocasiones especiales. Con una fragancia duradera y atractiva, estos perfumes de bolsillo son una opción conveniente para mantener un aroma fresco en cualquier momento.",
     "precio": " $49.00 ",
     "imagen": "src/assets/img/varios/Perfume para dama y caballero de bolsillo.jpg"
   },
   {
     "nombre": "Pinzas para Cabello 1.",
-    "descripcion": "",
+    "descripcion": "Decora tu cabello con estas lindas pinzas para cabello, ideales para sujetar mechones o para darle un toque especial a tu peinado. Son perfectas para cualquier ocasión, desde un día casual hasta una salida elegante. Hechas de materiales resistentes, estas pinzas son duraderas y fáciles de usar, manteniendo tu cabello en su lugar durante todo el día.",
     "precio": " $20.00 ",
     "imagen": "src/assets/img/varios/Pinzas para Cabello 1.jpg"
   },
   {
     "nombre": "Pinzas para Cabello 2.",
-    "descripcion": "",
+    "descripcion": "Decora tu cabello con estas lindas pinzas para cabello, ideales para sujetar mechones o para darle un toque especial a tu peinado. Son perfectas para cualquier ocasión, desde un día casual hasta una salida elegante. Hechas de materiales resistentes, estas pinzas son duraderas y fáciles de usar, manteniendo tu cabello en su lugar durante todo el día.",
     "precio": " $20.00 ",
     "imagen": "src/assets/img/varios/Pinzas para Cabello 2.jpg"
   },
