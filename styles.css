@@ -529,7 +529,7 @@ textarea.error {
   ); /* Cambia de color al pasar el mouse */
 }
 
-/** Animaciones suaves */
+/* Animaciones suaves */
 .section-content {
   opacity: 0;
   transition: opacity 0.5s ease-out;
@@ -548,7 +548,7 @@ textarea.error {
   }
 }
 
-/**media queries para responsividad */
+/*media queries para responsividad */
 @media (max-width: 900px) {
   #product-grid {
     gap: 1rem;
