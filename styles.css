@@ -516,9 +516,9 @@ textarea.error {
   background-color: var(--btn-up-background); /* Color de fondo oscuro */
   color: var(--white); /* Color del texto (flecha) */
   cursor: pointer; /* Cursor de mano al pasar por encima */
-  padding: 15px; /* Relleno interno */
+  padding: 20px; /* Relleno interno */
   border-radius: 10px; /* Bordes redondeados */
-  font-size: 18px; /* Tamaño de la flecha */
+  font-size: 20px; /* Tamaño de la flecha */
   transition:
     background-color 0.3s,
     opacity 0.5s; /* Transiciones suaves */

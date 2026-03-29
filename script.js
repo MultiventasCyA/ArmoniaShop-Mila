@@ -225,7 +225,7 @@ function renderCartList() {
     return;
   }
 
-  // Agrupar productos
+  //? Agrupar productos
   const agrupados = {};
   cart.forEach((item) => {
     if (!agrupados[item.nombre]) {
@@ -236,7 +236,7 @@ function renderCartList() {
   });
 
   let totalProductos = 0;
-  const costoEnvio = 50; // 💸 Puedes ajustar o hacerlo dinámico
+  const costoEnvio = 50; // ?💸 Puedes ajustar o hacerlo dinámico
 
   Object.values(agrupados).forEach((item) => {
     const precioUnit = Number(item.precio.replace(/[^0-9.]/g, ""));
@@ -258,21 +258,21 @@ function renderCartList() {
     cartList.appendChild(li);
   });
 
-  // Linea de subtotal
+  //? Linea de subtotal
   const subtotalLi = document.createElement("li");
   subtotalLi.innerHTML = `<span>Subtotal:</span> <span>$${totalProductos.toFixed(
     2
   )}</span>`;
   cartList.appendChild(subtotalLi);
 
-  // Línea de envío
+  //? Línea de envío
   const envioLi = document.createElement("li");
   envioLi.innerHTML = `<span>🛵Envío:</span> <span>$${costoEnvio.toFixed(
     2
   )}</span>`;
   cartList.appendChild(envioLi);
 
-  // Línea de total final
+  //? Línea de total final
   const totalLi = document.createElement("li");
   totalLi.style.fontWeight = "bold";
   totalLi.style.borderTop = "1px solid #e0e7ef";
@@ -282,7 +282,7 @@ function renderCartList() {
   ).toFixed(2)}</span>`;
   cartList.appendChild(totalLi);
 
-  // Botones suma y resta
+  //? Botones suma y resta
   cartList.querySelectorAll(".btn-sumar").forEach((btn) => {
     btn.addEventListener("click", () => {
       const nombre = btn.getAttribute("data-nombre");
@@ -324,7 +324,7 @@ function enviarCarritoPorWhatsApp() {
     return;
   }
 
-  // Agrupar productos
+  //? Agrupar productos
   const productosAgrupados = {};
   cart.forEach((item) => {
     if (!productosAgrupados[item.nombre]) {
@@ -334,7 +334,7 @@ function enviarCarritoPorWhatsApp() {
     }
   });
 
-  const costoEnvio = 50; // Ajustable según tu lógica
+  const costoEnvio = 50; // ? Ajustable según tu lógica
   let mensaje = "🧾 *Pedido Armonía Shop-Mila*\n";
   mensaje += "─────────────────────────\n";
   mensaje += "*Producto*     Cant.   Subtotal\n";
