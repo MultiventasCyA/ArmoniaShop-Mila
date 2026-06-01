@@ -150,6 +150,7 @@ function renderProducts() {
     card.innerHTML = `
       <img src="${producto.imagen}" alt="${producto.nombre}">
       <h3>${producto.nombre}</h3>
+      <span class="existencia">Existencia: ${producto.Existencia}</span>
       <p>${producto.descripcion}</p>
       <span class="precio">${producto.precio}</span>
       <button data-idx="${products.indexOf(producto)}">Añadir</button>

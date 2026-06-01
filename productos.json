@@ -2,294 +2,343 @@
   {
     "nombre": "Adherible Inox",
     "descripcion": "¡Renueva tus electrodomésticos y superficies con el Adherible Inox! Es fácil de instalar, fácil de limpiar y resistente al agua. PET adherible. 44 cm x 1 m.",
+    "Existencia": " 1 ",
     "precio": " $97.00 ",
     "imagen": "src/assets/img/BW/Adherible Inox.png"
   },
   {
     "nombre": "Adherible Muro Verde",
     "descripcion": "Las paredes decoradas dentro del hogar permiten renovar y crear una agradable atmósfera, como el Adherible Muro Verde, que logrará brindarte una sensación de espacio natural con su estampado de hojas. PVC adherible. 44 cm x 2 m.",
+    "Existencia": " 1 ",
     "precio": " $97.00 ",
     "imagen": "src/assets/img/BW/Adherible Muro Verde.png"
   },
   {
     "nombre": "No Me Mires Vitral",
     "descripcion": "Obtén privacidad y dale un look de vitral a tus ventanas con el No Me Mires Vitral Betterware. Esta solución para tu hogar le dará un look renovado a tus ventanas con su diseño geométrico tipo vitral además es muy fácil de instalar gracias a su material electrostático. PVC Electrostáctico.. 200 x 45 cm.",
+    "Existencia": " 1 ",
     "precio": " $127.00 ",
     "imagen": "src/assets/img/BW/No Me Mires Vitral.png"
   },
   {
     "nombre": "Better Klin X-Pert Brillo Piso",
     "descripcion": "Agentes Antibacteriales y Compuestos Tensioactivos. Contiene: 30 láminas. Rinde 3 Litros c/u.",
+    "Existencia": " 1 ",
     "precio": " $53.00 ",
     "imagen": "src/assets/img/BW/Better Klin X-Pert Brillo Piso.png"
   },
   {
     "nombre": "Canastilla Desague",
     "descripcion": "La Canastilla Desagüe evita el paso de los restos de alimentos por el orificio de la tarja de la cocina y cuenta con un asa para sujetarla fácilmente y tirar los residuos en la basura. Está hecha de acero inoxidable, lo que la hace súper resistente y duradera. Acero Inoxidable. D. 7 x 0.5 cm.",
+    "Existencia": " 1 ",
     "precio": " $38.00 ",
     "imagen": "src/assets/img/BW/Canastilla Desague.png"
   },
   {
     "nombre": "Canastilla Fregadero",
     "descripcion": "Coloca tus fibras y esponjas de la cocina de manera ordenada en la Canastilla Fregadero. Su diseño permitirá de que tus estropajos drenen el exceso de humedad y se mantengan libres de gérmenes y malos olores. Además, se ajusta a la llave del agua. TPR y Polipropileno. Soporta: 300 g. 15 x 5 x 24 cm",
+    "Existencia": " 1 ",
     "precio": " $45.00 ",
     "imagen": "src/assets/img/BW/Canastilla Fregadero.png"
   },
   {
     "nombre": "Cinema Cel HD",
     "descripcion": "¡Tu cine de bolsillo! Amplifica hasta 3 veces la imagen de tu celular gracias al lente de aumento intensimax HD del Cinema Cel HD. Además, es plegable y puedes guardarlo en cualquier lugar. ABS y PVC (no touch). 18 x 10 x 12 cm. Cerrado: 18 x 4 x 12 cm.",
+    "Existencia": " 1 ",
     "precio": " $165.00 ",
     "imagen": "src/assets/img/BW/Cinema Cel HD.png"
   },
   {
     "nombre": "Clip Sujeta Sabanas",
     "descripcion": "Mantén las sábanas de cajón en tu colchón en la mejor posición con la ayuda de los Clips Sujeta Sábanas. Se trata de unas bandas elásticas de larga duración que le permiten a tus sábanas estar siempre en su lugar. Polipropileno y nailon. 4 piezas. 23 x 3 x 2 cm.",
+    "Existencia": " 1 ",
     "precio": " $49.00 ",
     "imagen": "src/assets/img/BW/Clip Sujeta Sabanas.png"
   },
   {
     "nombre": "Cuchillo OxiFree",
     "descripcion": "El Cuchillo OxiFree te ayuda a realizar cortes perfectos y sin accidentes. Ideal para cortar frutas, verduras, queso, embutidos y más. Plástico ABS. 18 x 3 x 1cm.",
+    "Existencia": " 1 ",
     "precio": " $27.00 ",
     "imagen": "src/assets/img/BW/Cuchillo OxiFree.png"
   },
   {
     "nombre": "Dental Novo",
     "descripcion": "Lleva contigo tu pasta y cepillo dental con Dental Novo. Plástico. D. 7 x 21 cm. Cap: 2 cepillos dentales y una pasta dental.",
+    "Existencia": " 1 ",
     "precio": " $49.00 ",
     "imagen": "src/assets/img/BW/Dental Novo.png"
   },
   {
     "nombre": "Destapa Lavabo",
     "descripcion": "Evita la acumulación de agua estancada con el Destapa Lavabo, que evita daños provocados por el sarro, gérmenes o malos olores. Polietileno y polipropileno. D. 10 x 15 cm.",
+    "Existencia": " 1 ",
     "precio": " $45.00 ",
     "imagen": "src/assets/img/BW/Destapa Lavabo.png"
   },
   {
     "nombre": "Dispensa Marciano",
     "descripcion": "Dispensa tu pasta dental sin desperdiciar nada con el Dispensador Marcianito Betterware. Cuenta con un sistema push que permite dispensar la cantidad necesaria solo con presionar, es de fácil instalación en pared y se adapta a cualquier marca de pasta dental. PVC. Soporta pastas de hasta 130 g. 9 x 13.8 cm.",
+    "Existencia": " 1 ",
     "precio": " $112.00 ",
     "imagen": "src/assets/img/BW/Dispensa Marciano.png"
   },
   {
     "nombre": "Espejo Duo",
     "descripcion": "Maquillate como toda una profesional con la ayuda de Espejo Dúo, se instala súper fácil. ABS, TPR y vidrio. 20 x 2 x 20 cm. Instalación con adhesivo (incluido). Incluye espejo normal y zoom 2X.",
+    "Existencia": " 1 ",
     "precio": " $127.00 ",
     "imagen": "src/assets/img/BW/Espejo Duo.png"
   },
   {
     "nombre": "Esponja Mágica",
     "descripcion": "Limpia tus llaves y manerales sin maltratarlos con esta Esponja Mágica, súper eficaz para quitar residuos de jabón. Además puedes recortarla para que llegue a todos lados. Espuma de melamina desechable. 10 x 6 x 2 cm.",
+    "Existencia": " 1 ",
     "precio": " $30.00 ",
     "imagen": "src/assets/img/BW/Esponja Mágica.png"
   },
   {
     "nombre": "Mantel Toy Story",
     "descripcion": "El Mantel Toy Story de doble vista hará que la hora de la comida sea más divertida gracias a su diseño impreso de los personajes de esta película de Disney. Polipropileno. 45 x 30 x .6 cm.",
+    "Existencia": " 1 ",
     "precio": " $53.00 ",
     "imagen": "src/assets/img/BW/Mantel Toy Story.png"
   },
   {
     "nombre": "Popote Ecoklin",
     "descripcion": "Cuida el medio ambiente llevando contigo Popote Ecoklin, es reusable. Puedes deslizarlo y separarlo para lavarlo muy fácilmente. ABS. 2 x 1 x 23 cm.",
+    "Existencia": " 1 ",
     "precio": " $19.00 ",
     "imagen": "src/assets/img/BW/Popote Ecoklin.png"
   },
   {
     "nombre": "Porta Cepillo",
     "descripcion": "Protege y lleva contigo tu pasta y cepillo dental. Este estuche es ideal para guardar en tu mochila o bolsa ya que es resistente a golpes. O bien guárdalo en tu oficina. Polipropileno. 6 x 6 x 20 cm.",
+    "Existencia": " 1 ",
     "precio": " $45.00 ",
     "imagen": "src/assets/img/BW/Porta Cepillo.png"
   },
   {
     "nombre": "Practi Eggies Figuras",
     "descripcion": "El Diverti Eggies es en juego de 4 moldes con tapa hermética, ideal para hervir huevos sin cáscara de una manera rápida y sencilla. Todos tienen diferente figura: estrella, flor, círculo y corazón. Polipropileno. 4 piezas. 7 x 7 x 7 cm.",
+    "Existencia": " 1 ",
     "precio": " $53.00 ",
     "imagen": "src/assets/img/BW/Practi Eggies Figuras.png"
   },
   {
     "nombre": "Press It",
     "descripcion": "Dispensa fácilmente hasta la última gota de tu pasta dental con Press It. Poliestireno. 9 x 1 x 5 cm.",
+    "Existencia": " 1 ",
     "precio": " $19.00 ",
     "imagen": "src/assets/img/BW/Press It.png"
   },
   {
     "nombre": "Protecti Desague",
     "descripcion": "Protege tu lavabo y evita las molestas obstrucciones con Protecti Desagüe. Impide la salida de insectos con su posición de cerrado. Su tamaño universal le permite ajustarse a todo tipo de lavabos. Silicón. 10 x 10 x 3 cm.",
+    "Existencia": " 1 ",
     "precio": " $45.00 ",
     "imagen": "src/assets/img/BW/Protecti Desagüe.png"
   },
   {
     "nombre": "Protecti Ropa",
     "descripcion": "Protege la ropa de tu clóset del polvo con Protecti Ropa, un cobertor con la parte superior transparente para poder ver el interior. Colócalo sobre las prendas de tu preferencia. Tela Nonwoven y PVC. Cap: 44 prendas. 89 cm x 1.06 m.",
+    "Existencia": " 1 ",
     "precio": " $127.00 ",
     "imagen": "src/assets/img/BW/Protecti Ropa.png"
   },
   {
     "nombre": "Quita Pelusa Tapicería",
     "descripcion": "Mantén tus muebles como nuevos con la ayuda de Quita Pelusa Tapicería que remueve bolitas y fibras gentilmente de tus muebles de tela. Plástico y microfibra de poliéster. 15 x 10 x 3 cm.",
+    "Existencia": " 1 ",
     "precio": " $68.00 ",
     "imagen": "src/assets/img/BW/Quita Pelusa Tapicería.png"
   },
   {
     "nombre": "Renova Sartenes",
     "descripcion": "Extiende la vida de tus sartenes con Teflón Adherible. ¡Se coloca súper fácil! Fibra de vidrio y teflón. 3 piezas. D. 24 cm.",
+    "Existencia": " 1 ",
     "precio": " $68.00 ",
     "imagen": "src/assets/img/BW/Renova Sartenes.png"
   },
   {
     "nombre": "Repuesto Mob",
     "descripcion": "Repuesto para tu Fácil Mop elaborado con microfibra que te garantiza una máxima absorción y limpieza para tus pisos. Microfibra de Algodón. D. 32 x 4 cm.",
+    "Existencia": " 1 ",
     "precio": " $45.00 ",
     "imagen": "src/assets/img/BW/Repuesto Mob.png"
   },
   {
     "nombre": "Vaso Stitch",
     "descripcion": "Hidrátate de una manera divertida y disfruta de la magia de Disney con el Vaso Stitch Betterware coleccionable. Cuenta con un hermoso diseño bi-tono de Stitch, capacidad de 700 ml y popote con anillo para evitar que se salga. Poliestireno y Polipropileno. Capacidad: 700 ml. D. 11 x 21 cm.",
+    "Existencia": " 1 ",
     "precio": " $229.00 ",
     "imagen": "src/assets/img/BW/Vaso Stitch.png"
   },
   {
     "nombre": "Esmalte para Uñas maltratadas con colageno",
     "descripcion": "Este esmalte está formulado con colágeno para ayudar a nutrir y mejorar las uñas dañadas.",
+    "Existencia": " 1 ",
     "precio": " $40.00 ",
     "imagen": "src/assets/img/Ara/Esmalte para Uñas maltratadas con colageno.png"
   },
   {
     "nombre": "Crema Anti-humedad para Pies",
     "descripcion": "La crema antihumedad para pies Stanhome Pedi-Mist Cream contiene extracto de semilla de toronja, aceite de té limón y bisabolol, ofreciendo un efecto antitranspirante que controla la humedad y una acción antimicrobiana que evita la formación del 99.999% de las bacterias que causan el mal olor.",
+    "Existencia": " 1 ",
     "precio": " $59.90 ",
     "imagen": "src/assets/img/sh/Crema Anti-humedad para Pies.png"
   },
   {
     "nombre": "Crema reparadora hidratante",
     "descripcion": "La Pomada Mágica es una crema reparadora e hidratante que ayuda a restaurar la piel seca y agrietada, proporcionando alivio inmediato. Formulada con ingredientes que nutren profundamente la piel, es ideal para zonas afectadas por la sequedad extrema, como codos, talones y rodillas.",
+    "Existencia": " 1 ",
     "precio": " $59.90 ",
     "imagen": "src/assets/img/sh/Crema reparadora hidratante.png"
   },
   {
     "nombre": "Fresca Pie",
     "descripcion": "Dale a tus pies y piernas el descanso que merecen con Fresca Pie® Ice 300 ML, una loción de efecto frío que brinda descanso inmediata gracias a su fórmula con doble mentol. Perfecta para esos días largos y agotadores, ayuda a tonificar los músculos, estimula la circulación y reduce la sensación de hinchazón.",
+    "Existencia": " 1 ",
     "precio": " $89.90 ",
     "imagen": "src/assets/img/sh/Fresca Pie.png"
   },
   {
     "nombre": "Gel Desinfectante para inodoro",
     "descripcion": "El desinfectante para inodoro Stanhome está disponible en varias variantes, cada una con características específicas. El Ultra Active WC White 500 ML es un gel abrillantador desinfectante que elimina el 99,99% de bacterias y hongos comunes.",
+    "Existencia": " 1 ",
     "precio": " $99.90 ",
     "imagen": "src/assets/img/sh/Gel Desinfectante para inodoro.png"
   },
   {
     "nombre": "Kiotis - plus d'amour",
     "descripcion": "Kiotis Plus D'Amour es un perfume para mujer de tipo Eau de parfum con una fragancia floral oriental, disponible en un volumen de 100 mL. La fragancia se caracteriza por una combinación cautivadora de magnolia, jazmín y gardenia.",
+    "Existencia": " 1 ",
     "precio": " $225.00 ",
     "imagen": "src/assets/img/sh/Kiotis - plus d'amour.png"
   },
   {
     "nombre": "Pavanelle Crema Facial Dia y Noche",
     "descripcion": "La crema facial Pavan'elle Illumine de Kiotis es una fórmula diseñada para uso diurno y nocturno que contiene colágeno y elastina, ingredientes que ayudan a hidratar la piel, disminuir la pérdida de agua, proporcionar elasticidad y firmeza, y retardar la aparición de líneas de expresión.",
+    "Existencia": " 1 ",
     "precio": " $99.90 ",
     "imagen": "src/assets/img/sh/Pavanelle Crema Facial Dia y Noche.png"
   },
   {
     "nombre": "Pre-Poop Spray",
     "descripcion": "Pre-Poop Spray es un neutralizador de olores diseñado para ser utilizado antes de usar el inodoro, creando una capa protectora sobre la superficie del agua que atrapa los malos olores y proporciona una experiencia más agradable y fresca.",
+    "Existencia": " 1 ",
     "precio": " $49.90 ",
     "imagen": "src/assets/img/sh/Pre-Poop Spray.png"
   },
   {
     "nombre": "Exfoliante Corporal con Azucar kiotis",
     "descripcion": "Elaborado con ingredientes naturales como azucar, semillas exfoliantes y glicerina, ayuda a eliminar celulas muertas y combate la resequedad sin dejar sensacion grasosa. Disponible en tres irresistibles aromas: durazno, coco y arandano, con un toque de aceite esencial de limon para una hidratación profunda.",
+    "Existencia": " 1 ",
     "precio": " $138.99 ",
     "imagen": "src/assets/img/sh/Exfoliante Corporal 170G Arandano 60813.png"
   },
   {
     "nombre": "Tratamiento para uñas.",
     "descripcion": "Soft toenail tratamiento para las uñas, Tratamiento para uñas nail treatment, ablandador de uñas y cuticula Enrriquecido con urea y Propylene Glycol, soft toenail. Promueve el ablandamiento de zonas asperas.",
+    "Existencia": " 1 ",
     "precio": " $99.90 ",
     "imagen": "src/assets/img/sh/tratamiento para uñas.png"
   },
   {
     "nombre": "Espuma para Manos B&B White Tea & Sage",
     "descripcion": "Como darle un sorbo a una taza de té recién hecho: hogareña, luminosa y súper refrescante. Notas de la fragancia: Té fresco, limón y hierbas.",
+    "Existencia": " 1 ",
     "precio": " $149.00 ",
     "imagen": "src/assets/img/varios/Espuma para Manos B&B White Tea & Sage.png"
   },
   {
     "nombre": "Gel para manos B&B Mahogany TeakWood.",
     "descripcion": "A un aroma hecho de hojas caídas, franela suave y caminatas sin prisa. Notas de Fragancia: Caoba, madera de teca y lavanda.",
+    "Existencia": " 1 ",
     "precio": " $149.00 ",
     "imagen": "src/assets/img/varios/Gel para manos B&B Mahogany TeakWood.png"
   },
   {
     "nombre": "Charola cosmetiquera Mary Kay.",
     "descripcion": "La profundidad de 1 cm permite almacenar polvos compactos o sombras manteniendo el estuche cerrado de forma plana. Los 6 compartimentos integrados permiten organizar diferentes tonos de maquillaje en un espacio compacto y accesible. 2 En Existencia. Medidas: 18 cm x 15 cm x 1 cm.",
+    "Existencia": " 2 ",
     "precio": " $149.00 ",
     "imagen": "src/assets/img/varios/Charola cosmetiquera Mary Kay.png"
   },
   {
     "nombre": "Blue Ray (medio uso)",
     "descripcion": "Sistema Blue Ray de segunda mano, en buen estado. Ideal para disfrutar de tus películas favoritas con una calidad de imagen mejorada. Compatible con discos Blu-ray y DVD, este dispositivo te permitirá revivir tus momentos de entretenimiento con una experiencia visual impresionante.",
+    "Existencia": " 1 ",
     "precio": " $150.00 ",
     "imagen": "src/assets/img/varios/Blue Ray (medio uso).jpg"
   },
   {
     "nombre": "Juego 4 Vasos Maravilla Con Tapa",
     "descripcion": "Lindos vasos con un diseño elegante y moderno, ideales para disfrutar de tus bebidas favoritas. Con una capacidad de 500 ml, estos vasos son perfectos para servir agua, jugos, cócteles o cualquier otra bebida. Su color morado agrega un toque de sofisticación a tu mesa, haciendo que cada sorbo sea una experiencia visual y gustativa única.",
+    "Existencia": " 1 ",
     "precio": " $180.00 ",
     "imagen": "src/assets/img/varios/Juego 4 Vasos Maravilla Con Tapa.jpg"
   },
   {
     "nombre": "Juego 4 Vasos Murano 500Ml Morado",
     "descripcion": "Lindos vasos con un diseño elegante y moderno, ideales para disfrutar de tus bebidas favoritas. Con una capacidad de 500 ml, estos vasos son perfectos para servir agua, jugos, cócteles o cualquier otra bebida. Su color morado agrega un toque de sofisticación a tu mesa, haciendo que cada sorbo sea una experiencia visual y gustativa única.",
+    "Existencia": " 1 ",
     "precio": " $99.00 ",
     "imagen": "src/assets/img/varios/Juego 4 Vasos Murano 500Ml Morado.jpg"
   },
   {
     "nombre": "Pinzas para Cabello 1.",
     "descripcion": "Decora tu cabello con estas lindas pinzas para cabello, ideales para sujetar mechones o para darle un toque especial a tu peinado. Son perfectas para cualquier ocasión, desde un día casual hasta una salida elegante. Hechas de materiales resistentes, estas pinzas son duraderas y fáciles de usar, manteniendo tu cabello en su lugar durante todo el día.",
+    "Existencia": " 1 ",
     "precio": " $20.00 ",
     "imagen": "src/assets/img/varios/Pinzas para Cabello 1.jpg"
   },
   {
     "nombre": "Pinzas para Cabello 2.",
     "descripcion": "Decora tu cabello con estas lindas pinzas para cabello, ideales para sujetar mechones o para darle un toque especial a tu peinado. Son perfectas para cualquier ocasión, desde un día casual hasta una salida elegante. Hechas de materiales resistentes, estas pinzas son duraderas y fáciles de usar, manteniendo tu cabello en su lugar durante todo el día.",
+    "Existencia": " 1 ",
     "precio": " $20.00 ",
     "imagen": "src/assets/img/varios/Pinzas para Cabello 2.jpg"
   },
   {
     "nombre": "Monomando Mezcladora Dica 4433",
     "descripcion": "El monomando para lavabo DICA 4433 es un grifo de tipo monocomando diseñado para instalación en mesadas o paredes, con un cuerpo fabricado en latón y un cartucho cerámico para un cierre preciso y duradero",
+    "Existencia": " 1 ",
     "precio": " $800.00 ",
     "imagen": "src/assets/img/varios/Monomando Mezcladora Dica 4433.png"
   },
   {
     "nombre": "Llave para Jardin 4019DM.",
     "descripcion": "La llave para jardín modelo 4019DM es un producto de la marca DICA, diseñado con un cartucho de 1/4 de vuelta para un funcionamiento óptimo y ecológico, con una presión de trabajo que va desde 1 hasta 3 kg/cm².",
+    "Existencia": " 1 ",
     "precio": " $200.00 ",
     "imagen": "src/assets/img/varios/Llave para Jardin 4019DM.jpg"
   },
   {
     "nombre": "Llave Para Manguera Compacta Con Rosca 4119C Dica.",
     "descripcion": "La Llave Para Manguera Compacta Con Rosca 4119C Dica es una válvula de paso diseñada para controlar el flujo de agua en instalaciones domésticas y comerciales, ideal para jardines, patios, lavaderos y sistemas de riego. Su diseño compacto permite su instalación en espacios reducidos.",
+    "Existencia": " 1 ",
     "precio": " $50.00 ",
     "imagen": "src/assets/img/varios/Llave Para Manguera Compacta Con Rosca 4119C Dica.PNG"
   },
   {
     "nombre": "Portalampara de Porcelana Redondo para Techo 4 E26.",
     "descripcion": "La portalámpara de porcelana redonda para techo 4 con base E26 es un accesorio eléctrico diseñado para instalación de luminarias en techos o paredes. Fabricada en cerámica esmaltada, ofrece alta resistencia al calor (hasta 350°C) y durabilidad, ideal para uso doméstico e industrial.",
+    "Existencia": " 1 ",
     "precio": " $60.00 ",
     "imagen": "src/assets/img/varios/Portalampara de Porcelana Redondo para Techo 4 E26.png"
   },
   {
     "nombre": "Regadera Clásica con Brazo y Chapetón.",
     "descripcion": "Regadera con brazo y chapetón estilo clásico para instalaciones de baja presión..",
+    "Existencia": " 1 ",
     "precio": " $350.00 ",
     "imagen": "src/assets/img/varios/Regadera Clásica con Brazo y Chapetón.png"
   },
   {
     "nombre": "Parrilla A Gas Empotrable.",
     "descripcion": "Medida 58 cm (22.8″). Material Acero Inoxidable. Voltaje 127 Volts. Suministro Gas LP o Natural. Quemadores 1 rápido, 2 semi-rápidos y 1 auxiliar. Arañas Hierro fundido. Encendido Electrónico.",
+    "Existencia": " 1 ",
     "precio": " $2,999.00 ",
     "imagen": "src/assets/img/varios/Parrilla A Gas Empotrable.png"
   }

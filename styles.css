@@ -202,6 +202,12 @@ figure img {
   color: var(--primary-color);
   font-weight: 700;
 }
+.product-card .existencia {
+  margin: 0.5rem 0 0.25rem 0;
+  font-size: 0.875rem;
+  color: red;
+  font-weight: 100;
+}
 .product-card p {
   color: var(--text-color);
   font-size: 0.75rem;
