@@ -12,6 +12,12 @@
     "imagen": "src/assets/img/BW/Adherible Muro Verde.png"
   },
   {
+    "nombre": "No Me Mires Vitral",
+    "descripcion": "Obtén privacidad y dale un look de vitral a tus ventanas con el No Me Mires Vitral Betterware. Esta solución para tu hogar le dará un look renovado a tus ventanas con su diseño geométrico tipo vitral además es muy fácil de instalar gracias a su material electrostático. PVC Electrostáctico.. 200 x 45 cm.",
+    "precio": " $127.00 ",
+    "imagen": "src/assets/img/BW/No Me Mires Vitral.png"
+  },
+  {
     "nombre": "Better Klin X-Pert Brillo Piso",
     "descripcion": "Agentes Antibacteriales y Compuestos Tensioactivos. Contiene: 30 láminas. Rinde 3 Litros c/u.",
     "precio": " $53.00 ",
@@ -84,12 +90,6 @@
     "imagen": "src/assets/img/BW/Mantel Toy Story.png"
   },
   {
-    "nombre": "No Me Mires Vitral",
-    "descripcion": "Obtén privacidad y dale un look de vitral a tus ventanas con el No Me Mires Vitral Betterware. Esta solución para tu hogar le dará un look renovado a tus ventanas con su diseño geométrico tipo vitral además es muy fácil de instalar gracias a su material electrostático. PVC Electrostáctico.. 200 x 45 cm.",
-    "precio": " $127.00 ",
-    "imagen": "src/assets/img/BW/No Me Mires Vitral.png"
-  },
-  {
     "nombre": "Popote Ecoklin",
     "descripcion": "Cuida el medio ambiente llevando contigo Popote Ecoklin, es reusable. Puedes deslizarlo y separarlo para lavarlo muy fácilmente. ABS. 2 x 1 x 23 cm.",
     "precio": " $19.00 ",
@@ -156,12 +156,6 @@
     "imagen": "src/assets/img/Ara/Esmalte para Uñas maltratadas con colageno.png"
   },
   {
-    "nombre": "Fragancia para Dama Luna Sweet",
-    "descripcion": "Descubre la esencia cautivadora de Arabela Luna Sweet, una fragancia diseñada especialmente para la mujer moderna que busca destacar en cada ocasión.",
-    "precio": " $99.90 ",
-    "imagen": "src/assets/img/Ara/Fragancia para Dama Luna Sweet.png"
-  },
-  {
     "nombre": "Crema Anti-humedad para Pies",
     "descripcion": "La crema antihumedad para pies Stanhome Pedi-Mist Cream contiene extracto de semilla de toronja, aceite de té limón y bisabolol, ofreciendo un efecto antitranspirante que controla la humedad y una acción antimicrobiana que evita la formación del 99.999% de las bacterias que causan el mal olor.",
     "precio": " $59.90 ",
@@ -172,18 +166,6 @@
     "descripcion": "La Pomada Mágica es una crema reparadora e hidratante que ayuda a restaurar la piel seca y agrietada, proporcionando alivio inmediato. Formulada con ingredientes que nutren profundamente la piel, es ideal para zonas afectadas por la sequedad extrema, como codos, talones y rodillas.",
     "precio": " $59.90 ",
     "imagen": "src/assets/img/sh/Crema reparadora hidratante.png"
-  },
-  {
-    "nombre": "Drop Fiestas de Cereza",
-    "descripcion": "El producto Drop Fiestas de Cerezas es un neutralizador de olores concentrado con una fragancia dulce y vibrante a cereza, diseñado para eliminar malos olores en espacios como baños, tuberías, botes de basura, aspiradoras y cocinas.",
-    "precio": " $69.90 ",
-    "imagen": "src/assets/img/sh/Drop Fiestas de Cereza.png"
-  },
-  {
-    "nombre": "Flower Drop",
-    "descripcion": "El Flower Drop de Stanhome es un neutralizador de olores concentrado diseñado para eliminar malos olores de baños, tuberías, basura, aspiradoras y otros espacios, sin solo enmascararlos sino neutralizándolos eficazmente.",
-    "precio": " $69.90 ",
-    "imagen": "src/assets/img/sh/Flower Drop.png"
   },
   {
     "nombre": "Fresca Pie",
@@ -204,18 +186,6 @@
     "imagen": "src/assets/img/sh/Kiotis - plus d'amour.png"
   },
   {
-    "nombre": "Kiotis Enjoyable Girl",
-    "descripcion": "Kiotis Enjoyable Girl es un perfume para mujer con una presentación de 100 ml. Su fragancia comienza con una salida efervescente y vibrante que combina pera y mandarina, creando un aroma embaucador y adictivo.",
-    "precio": " $89.90 ",
-    "imagen": "src/assets/img/sh/Kiotis Enjoyable Girl.png"
-  },
-  {
-    "nombre": "Kiotis Goodness - Agua de Tocador",
-    "descripcion": "El Stanhome Kiotis Goodness Eau De Toilette 100 Ml es una fragancia diseñada para mujeres, perteneciente a la familia olfativa floral-frutal",
-    "precio": " $89.90 ",
-    "imagen": "src/assets/img/sh/Kiotis Goodness - Agua de Tocador.png"
-  },
-  {
     "nombre": "Pavanelle Crema Facial Dia y Noche",
     "descripcion": "La crema facial Pavan'elle Illumine de Kiotis es una fórmula diseñada para uso diurno y nocturno que contiene colágeno y elastina, ingredientes que ayudan a hidratar la piel, disminuir la pérdida de agua, proporcionar elasticidad y firmeza, y retardar la aparición de líneas de expresión.",
     "precio": " $99.90 ",
@@ -228,22 +198,40 @@
     "imagen": "src/assets/img/sh/Pre-Poop Spray.png"
   },
   {
+    "nombre": "Exfoliante Corporal con Azucar kiotis",
+    "descripcion": "Elaborado con ingredientes naturales como azucar, semillas exfoliantes y glicerina, ayuda a eliminar celulas muertas y combate la resequedad sin dejar sensacion grasosa. Disponible en tres irresistibles aromas: durazno, coco y arandano, con un toque de aceite esencial de limon para una hidratación profunda.",
+    "precio": " $138.99 ",
+    "imagen": "src/assets/img/sh/Exfoliante Corporal 170G Arandano 60813.png"
+  },
+  {
+    "nombre": "Tratamiento para uñas.",
+    "descripcion": "Soft toenail tratamiento para las uñas, Tratamiento para uñas nail treatment, ablandador de uñas y cuticula Enrriquecido con urea y Propylene Glycol, soft toenail. Promueve el ablandamiento de zonas asperas.",
+    "precio": " $99.90 ",
+    "imagen": "src/assets/img/sh/tratamiento para uñas.png"
+  },
+  {
+    "nombre": "Espuma para Manos B&B White Tea & Sage",
+    "descripcion": "Como darle un sorbo a una taza de té recién hecho: hogareña, luminosa y súper refrescante. Notas de la fragancia: Té fresco, limón y hierbas.",
+    "precio": " $149.00 ",
+    "imagen": "src/assets/img/varios/Espuma para Manos B&B White Tea & Sage.png"
+  },
+  {
+    "nombre": "Gel para manos B&B Mahogany TeakWood.",
+    "descripcion": "A un aroma hecho de hojas caídas, franela suave y caminatas sin prisa. Notas de Fragancia: Caoba, madera de teca y lavanda.",
+    "precio": " $149.00 ",
+    "imagen": "src/assets/img/varios/Gel para manos B&B Mahogany TeakWood.png"
+  },
+  {
+    "nombre": "Charola cosmetiquera Mary Kay.",
+    "descripcion": "La profundidad de 1 cm permite almacenar polvos compactos o sombras manteniendo el estuche cerrado de forma plana. Los 6 compartimentos integrados permiten organizar diferentes tonos de maquillaje en un espacio compacto y accesible. 2 En Existencia. Medidas: 18 cm x 15 cm x 1 cm.",
+    "precio": " $149.00 ",
+    "imagen": "src/assets/img/varios/Charola cosmetiquera Mary Kay.png"
+  },
+  {
     "nombre": "Blue Ray (medio uso)",
     "descripcion": "Sistema Blue Ray de segunda mano, en buen estado. Ideal para disfrutar de tus películas favoritas con una calidad de imagen mejorada. Compatible con discos Blu-ray y DVD, este dispositivo te permitirá revivir tus momentos de entretenimiento con una experiencia visual impresionante.",
     "precio": " $150.00 ",
     "imagen": "src/assets/img/varios/Blue Ray (medio uso).jpg"
-  },
-  {
-    "nombre": "Cartera dama 1",
-    "descripcion": "Bonita cartera para dama, ideal para complementar tu outfit con un toque de elegancia. Con un diseño moderno y funcional, esta cartera cuenta con compartimentos espaciosos para organizar tus pertenencias de manera eficiente. Su material de alta calidad garantiza durabilidad y resistencia, mientras que su estilo versátil la hace perfecta para cualquier ocasión, desde eventos formales hasta salidas casuales.",
-    "precio": " $150.00 ",
-    "imagen": "src/assets/img/varios/Cartera dama 1.png"
-  },
-  {
-    "nombre": "Cartera dama 2",
-    "descripcion": "Bonita cartera para dama, ideal para complementar tu outfit con un toque de elegancia. Con un diseño moderno y funcional, esta cartera cuenta con compartimentos espaciosos para organizar tus pertenencias de manera eficiente. Su material de alta calidad garantiza durabilidad y resistencia, mientras que su estilo versátil la hace perfecta para cualquier ocasión, desde eventos formales hasta salidas casuales.",
-    "precio": " $150.00 ",
-    "imagen": "src/assets/img/varios/Cartera dama 2.png"
   },
   {
     "nombre": "Juego 4 Vasos Maravilla Con Tapa",
@@ -256,12 +244,6 @@
     "descripcion": "Lindos vasos con un diseño elegante y moderno, ideales para disfrutar de tus bebidas favoritas. Con una capacidad de 500 ml, estos vasos son perfectos para servir agua, jugos, cócteles o cualquier otra bebida. Su color morado agrega un toque de sofisticación a tu mesa, haciendo que cada sorbo sea una experiencia visual y gustativa única.",
     "precio": " $99.00 ",
     "imagen": "src/assets/img/varios/Juego 4 Vasos Murano 500Ml Morado.jpg"
-  },
-  {
-    "nombre": "Perfume para dama y caballero de bolsillo.",
-    "descripcion": "Excelentes aromas para dama y caballero, ideales para llevar en el bolso o en el bolsillo. Su tamaño compacto los hace perfectos para refrescarse durante el día o para ocasiones especiales. Con una fragancia duradera y atractiva, estos perfumes de bolsillo son una opción conveniente para mantener un aroma fresco en cualquier momento.",
-    "precio": " $49.00 ",
-    "imagen": "src/assets/img/varios/Perfume para dama y caballero de bolsillo.jpg"
   },
   {
     "nombre": "Pinzas para Cabello 1.",
