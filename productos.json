@@ -298,5 +298,17 @@
     "descripcion": "La portalámpara de porcelana redonda para techo 4 con base E26 es un accesorio eléctrico diseñado para instalación de luminarias en techos o paredes. Fabricada en cerámica esmaltada, ofrece alta resistencia al calor (hasta 350°C) y durabilidad, ideal para uso doméstico e industrial.",
     "precio": " $60.00 ",
     "imagen": "src/assets/img/varios/Portalampara de Porcelana Redondo para Techo 4 E26.png"
+  },
+  {
+    "nombre": "Regadera Clásica con Brazo y Chapetón.",
+    "descripcion": "Regadera con brazo y chapetón estilo clásico para instalaciones de baja presión..",
+    "precio": " $350.00 ",
+    "imagen": "src/assets/img/varios/Regadera Clásica con Brazo y Chapetón.png"
+  },
+  {
+    "nombre": "Parrilla A Gas Empotrable.",
+    "descripcion": "Medida 58 cm (22.8″). Material Acero Inoxidable. Voltaje 127 Volts. Suministro Gas LP o Natural. Quemadores 1 rápido, 2 semi-rápidos y 1 auxiliar. Arañas Hierro fundido. Encendido Electrónico.",
+    "precio": " $2,999.00 ",
+    "imagen": "src/assets/img/varios/Parrilla A Gas Empotrable.png"
   }
 ]
