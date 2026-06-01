@@ -23,28 +23,21 @@
   {
     "nombre": "Better Klin X-Pert Brillo Piso",
     "descripcion": "Agentes Antibacteriales y Compuestos Tensioactivos. Contiene: 30 láminas. Rinde 3 Litros c/u.",
-    "Existencia": " 1 ",
-    "precio": " $53.00 ",
+    "Existencia": " 2 ",
+    "precio": " $80.00 ",
     "imagen": "src/assets/img/BW/Better Klin X-Pert Brillo Piso.png"
   },
   {
     "nombre": "Canastilla Desague",
-    "descripcion": "La Canastilla Desagüe evita el paso de los restos de alimentos por el orificio de la tarja de la cocina y cuenta con un asa para sujetarla fácilmente y tirar los residuos en la basura. Está hecha de acero inoxidable, lo que la hace súper resistente y duradera. Acero Inoxidable. D. 7 x 0.5 cm.",
+    "descripcion": "CLa Canastilla Desagüe evita el paso de los restos de alimentos por el orificio de la tarja de la cocina y cuenta con un asa para sujetarla fácilmente y tirar los residuos en la basura. Está hecha de acero inoxidable, lo que la hace súper resistente y duradera. Acero Inoxidable. D. 7 x 0.5 cm.",
     "Existencia": " 1 ",
-    "precio": " $38.00 ",
+    "precio": " $49.00 ",
     "imagen": "src/assets/img/BW/Canastilla Desague.png"
-  },
-  {
-    "nombre": "Canastilla Fregadero",
-    "descripcion": "Coloca tus fibras y esponjas de la cocina de manera ordenada en la Canastilla Fregadero. Su diseño permitirá de que tus estropajos drenen el exceso de humedad y se mantengan libres de gérmenes y malos olores. Además, se ajusta a la llave del agua. TPR y Polipropileno. Soporta: 300 g. 15 x 5 x 24 cm",
-    "Existencia": " 1 ",
-    "precio": " $45.00 ",
-    "imagen": "src/assets/img/BW/Canastilla Fregadero.png"
   },
   {
     "nombre": "Cinema Cel HD",
     "descripcion": "¡Tu cine de bolsillo! Amplifica hasta 3 veces la imagen de tu celular gracias al lente de aumento intensimax HD del Cinema Cel HD. Además, es plegable y puedes guardarlo en cualquier lugar. ABS y PVC (no touch). 18 x 10 x 12 cm. Cerrado: 18 x 4 x 12 cm.",
-    "Existencia": " 1 ",
+    "Existencia": " 2 ",
     "precio": " $165.00 ",
     "imagen": "src/assets/img/BW/Cinema Cel HD.png"
   },
@@ -54,6 +47,13 @@
     "Existencia": " 1 ",
     "precio": " $49.00 ",
     "imagen": "src/assets/img/BW/Clip Sujeta Sabanas.png"
+  },
+  {
+    "nombre": "Funda Protect XL",
+    "descripcion": "Protege y organiza tus prendas de vestir extra largas con la Funda XL Protect Betterware. Esta solución para tu recámara te permitirá proteger del sol, humedad y polvo tus prendas largas de vestir. Cuenta con ventana identificadora y aro para doblar y transportar. Polipropileno y PVC. 120 x 60 cm.",
+    "Existencia": " 1 ",
+    "precio": " $149.00 ",
+    "imagen": "src/assets/img/BW/Funda Protect XL.png"
   },
   {
     "nombre": "Cuchillo OxiFree",
@@ -105,20 +105,6 @@
     "imagen": "src/assets/img/BW/Mantel Toy Story.png"
   },
   {
-    "nombre": "Popote Ecoklin",
-    "descripcion": "Cuida el medio ambiente llevando contigo Popote Ecoklin, es reusable. Puedes deslizarlo y separarlo para lavarlo muy fácilmente. ABS. 2 x 1 x 23 cm.",
-    "Existencia": " 1 ",
-    "precio": " $19.00 ",
-    "imagen": "src/assets/img/BW/Popote Ecoklin.png"
-  },
-  {
-    "nombre": "Porta Cepillo",
-    "descripcion": "Protege y lleva contigo tu pasta y cepillo dental. Este estuche es ideal para guardar en tu mochila o bolsa ya que es resistente a golpes. O bien guárdalo en tu oficina. Polipropileno. 6 x 6 x 20 cm.",
-    "Existencia": " 1 ",
-    "precio": " $45.00 ",
-    "imagen": "src/assets/img/BW/Porta Cepillo.png"
-  },
-  {
     "nombre": "Practi Eggies Figuras",
     "descripcion": "El Diverti Eggies es en juego de 4 moldes con tapa hermética, ideal para hervir huevos sin cáscara de una manera rápida y sencilla. Todos tienen diferente figura: estrella, flor, círculo y corazón. Polipropileno. 4 piezas. 7 x 7 x 7 cm.",
     "Existencia": " 1 ",
@@ -128,22 +114,15 @@
   {
     "nombre": "Press It",
     "descripcion": "Dispensa fácilmente hasta la última gota de tu pasta dental con Press It. Poliestireno. 9 x 1 x 5 cm.",
-    "Existencia": " 1 ",
+    "Existencia": " 5 ",
     "precio": " $19.00 ",
     "imagen": "src/assets/img/BW/Press It.png"
-  },
-  {
-    "nombre": "Protecti Desague",
-    "descripcion": "Protege tu lavabo y evita las molestas obstrucciones con Protecti Desagüe. Impide la salida de insectos con su posición de cerrado. Su tamaño universal le permite ajustarse a todo tipo de lavabos. Silicón. 10 x 10 x 3 cm.",
-    "Existencia": " 1 ",
-    "precio": " $45.00 ",
-    "imagen": "src/assets/img/BW/Protecti Desagüe.png"
   },
   {
     "nombre": "Protecti Ropa",
     "descripcion": "Protege la ropa de tu clóset del polvo con Protecti Ropa, un cobertor con la parte superior transparente para poder ver el interior. Colócalo sobre las prendas de tu preferencia. Tela Nonwoven y PVC. Cap: 44 prendas. 89 cm x 1.06 m.",
     "Existencia": " 1 ",
-    "precio": " $127.00 ",
+    "precio": " $170.00 ",
     "imagen": "src/assets/img/BW/Protecti Ropa.png"
   },
   {
@@ -157,7 +136,7 @@
     "nombre": "Renova Sartenes",
     "descripcion": "Extiende la vida de tus sartenes con Teflón Adherible. ¡Se coloca súper fácil! Fibra de vidrio y teflón. 3 piezas. D. 24 cm.",
     "Existencia": " 1 ",
-    "precio": " $68.00 ",
+    "precio": " $90.00 ",
     "imagen": "src/assets/img/BW/Renova Sartenes.png"
   },
   {
@@ -289,50 +268,57 @@
   {
     "nombre": "Pinzas para Cabello 1.",
     "descripcion": "Decora tu cabello con estas lindas pinzas para cabello, ideales para sujetar mechones o para darle un toque especial a tu peinado. Son perfectas para cualquier ocasión, desde un día casual hasta una salida elegante. Hechas de materiales resistentes, estas pinzas son duraderas y fáciles de usar, manteniendo tu cabello en su lugar durante todo el día.",
-    "Existencia": " 1 ",
+    "Existencia": " 5 ",
     "precio": " $20.00 ",
     "imagen": "src/assets/img/varios/Pinzas para Cabello 1.jpg"
   },
   {
     "nombre": "Pinzas para Cabello 2.",
     "descripcion": "Decora tu cabello con estas lindas pinzas para cabello, ideales para sujetar mechones o para darle un toque especial a tu peinado. Son perfectas para cualquier ocasión, desde un día casual hasta una salida elegante. Hechas de materiales resistentes, estas pinzas son duraderas y fáciles de usar, manteniendo tu cabello en su lugar durante todo el día.",
-    "Existencia": " 1 ",
+    "Existencia": " 4 ",
     "precio": " $20.00 ",
     "imagen": "src/assets/img/varios/Pinzas para Cabello 2.jpg"
+  },
+  {
+    "nombre": "Funda para teléfono con brazalete deportivo.",
+    "descripcion": "Protege tu teléfono con esta linda funda, ideale para proteger tu dispositivo de golpes y arañazos. Con un brazalete deportivo, puedes llevar tu teléfono contigo sin preocuparte por perderlo. Hecha de materiales resistentes, esta funda es duradera y fácil de usar.",
+    "Existencia": " 1 ",
+    "precio": " $80.00 ",
+    "imagen": "src/assets/img/varios/Funda para teléfono con brazalete deportivo.png"
   },
   {
     "nombre": "Monomando Mezcladora Dica 4433",
     "descripcion": "El monomando para lavabo DICA 4433 es un grifo de tipo monocomando diseñado para instalación en mesadas o paredes, con un cuerpo fabricado en latón y un cartucho cerámico para un cierre preciso y duradero",
     "Existencia": " 1 ",
-    "precio": " $800.00 ",
+    "precio": " $799.00 ",
     "imagen": "src/assets/img/varios/Monomando Mezcladora Dica 4433.png"
   },
   {
     "nombre": "Llave para Jardin 4019DM.",
     "descripcion": "La llave para jardín modelo 4019DM es un producto de la marca DICA, diseñado con un cartucho de 1/4 de vuelta para un funcionamiento óptimo y ecológico, con una presión de trabajo que va desde 1 hasta 3 kg/cm².",
     "Existencia": " 1 ",
-    "precio": " $200.00 ",
+    "precio": " $199.00 ",
     "imagen": "src/assets/img/varios/Llave para Jardin 4019DM.jpg"
   },
   {
     "nombre": "Llave Para Manguera Compacta Con Rosca 4119C Dica.",
     "descripcion": "La Llave Para Manguera Compacta Con Rosca 4119C Dica es una válvula de paso diseñada para controlar el flujo de agua en instalaciones domésticas y comerciales, ideal para jardines, patios, lavaderos y sistemas de riego. Su diseño compacto permite su instalación en espacios reducidos.",
     "Existencia": " 1 ",
-    "precio": " $50.00 ",
+    "precio": " $49.00 ",
     "imagen": "src/assets/img/varios/Llave Para Manguera Compacta Con Rosca 4119C Dica.PNG"
   },
   {
     "nombre": "Portalampara de Porcelana Redondo para Techo 4 E26.",
     "descripcion": "La portalámpara de porcelana redonda para techo 4 con base E26 es un accesorio eléctrico diseñado para instalación de luminarias en techos o paredes. Fabricada en cerámica esmaltada, ofrece alta resistencia al calor (hasta 350°C) y durabilidad, ideal para uso doméstico e industrial.",
     "Existencia": " 1 ",
-    "precio": " $60.00 ",
+    "precio": " $59.00 ",
     "imagen": "src/assets/img/varios/Portalampara de Porcelana Redondo para Techo 4 E26.png"
   },
   {
     "nombre": "Regadera Clásica con Brazo y Chapetón.",
     "descripcion": "Regadera con brazo y chapetón estilo clásico para instalaciones de baja presión..",
     "Existencia": " 1 ",
-    "precio": " $350.00 ",
+    "precio": " $349.00 ",
     "imagen": "src/assets/img/varios/Regadera Clásica con Brazo y Chapetón.png"
   },
   {
