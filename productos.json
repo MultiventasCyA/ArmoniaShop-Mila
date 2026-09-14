@@ -289,14 +289,14 @@
   {
     "nombre": "Monomando Mezcladora Dica 4433",
     "descripcion": "El monomando para lavabo DICA 4433 es un grifo de tipo monocomando diseñado para instalación en mesadas o paredes, con un cuerpo fabricado en latón y un cartucho cerámico para un cierre preciso y duradero",
-    "Existencia": " 1 ",
+    "Existencia": " 2 ",
     "precio": " $799.00 ",
     "imagen": "src/assets/img/varios/Monomando Mezcladora Dica 4433.png"
   },
   {
     "nombre": "Llave para Jardin 4019DM.",
     "descripcion": "La llave para jardín modelo 4019DM es un producto de la marca DICA, diseñado con un cartucho de 1/4 de vuelta para un funcionamiento óptimo y ecológico, con una presión de trabajo que va desde 1 hasta 3 kg/cm².",
-    "Existencia": " 1 ",
+    "Existencia": " 4 ",
     "precio": " $199.00 ",
     "imagen": "src/assets/img/varios/Llave para Jardin 4019DM.jpg"
   },
