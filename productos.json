@@ -147,13 +147,6 @@
     "imagen": "src/assets/img/BW/Repuesto Mob.png"
   },
   {
-    "nombre": "Vaso Stitch",
-    "descripcion": "Hidrátate de una manera divertida y disfruta de la magia de Disney con el Vaso Stitch Betterware coleccionable. Cuenta con un hermoso diseño bi-tono de Stitch, capacidad de 700 ml y popote con anillo para evitar que se salga. Poliestireno y Polipropileno. Capacidad: 700 ml. D. 11 x 21 cm.",
-    "Existencia": " 1 ",
-    "precio": " $229.00 ",
-    "imagen": "src/assets/img/BW/Vaso Stitch.png"
-  },
-  {
     "nombre": "Esmalte para Uñas maltratadas con colageno",
     "descripcion": "Este esmalte está formulado con colágeno para ayudar a nutrir y mejorar las uñas dañadas.",
     "Existencia": " 1 ",
@@ -189,13 +182,6 @@
     "imagen": "src/assets/img/sh/Gel Desinfectante para inodoro.png"
   },
   {
-    "nombre": "Kiotis - plus d'amour",
-    "descripcion": "Kiotis Plus D'Amour es un perfume para mujer de tipo Eau de parfum con una fragancia floral oriental, disponible en un volumen de 100 mL. La fragancia se caracteriza por una combinación cautivadora de magnolia, jazmín y gardenia.",
-    "Existencia": " 1 ",
-    "precio": " $225.00 ",
-    "imagen": "src/assets/img/sh/Kiotis - plus d'amour.png"
-  },
-  {
     "nombre": "Pavanelle Crema Facial Dia y Noche",
     "descripcion": "La crema facial Pavan'elle Illumine de Kiotis es una fórmula diseñada para uso diurno y nocturno que contiene colágeno y elastina, ingredientes que ayudan a hidratar la piel, disminuir la pérdida de agua, proporcionar elasticidad y firmeza, y retardar la aparición de líneas de expresión.",
     "Existencia": " 1 ",
@@ -222,20 +208,6 @@
     "Existencia": " 1 ",
     "precio": " $99.90 ",
     "imagen": "src/assets/img/sh/tratamiento para uñas.png"
-  },
-  {
-    "nombre": "Espuma para Manos B&B White Tea & Sage",
-    "descripcion": "Como darle un sorbo a una taza de té recién hecho: hogareña, luminosa y súper refrescante. Notas de la fragancia: Té fresco, limón y hierbas.",
-    "Existencia": " 1 ",
-    "precio": " $149.00 ",
-    "imagen": "src/assets/img/varios/Espuma para Manos B&B White Tea & Sage.png"
-  },
-  {
-    "nombre": "Gel para manos B&B Mahogany TeakWood.",
-    "descripcion": "A un aroma hecho de hojas caídas, franela suave y caminatas sin prisa. Notas de Fragancia: Caoba, madera de teca y lavanda.",
-    "Existencia": " 1 ",
-    "precio": " $149.00 ",
-    "imagen": "src/assets/img/varios/Gel para manos B&B Mahogany TeakWood.png"
   },
   {
     "nombre": "Charola cosmetiquera Mary Kay.",
@@ -296,14 +268,14 @@
   {
     "nombre": "Llave para Jardin 4019DM.",
     "descripcion": "La llave para jardín modelo 4019DM es un producto de la marca DICA, diseñado con un cartucho de 1/4 de vuelta para un funcionamiento óptimo y ecológico, con una presión de trabajo que va desde 1 hasta 3 kg/cm².",
-    "Existencia": " 4 ",
+    "Existencia": " 2 ",
     "precio": " $199.00 ",
     "imagen": "src/assets/img/varios/Llave para Jardin 4019DM.jpg"
   },
   {
     "nombre": "Llave Para Manguera Compacta Con Rosca 4119C Dica.",
     "descripcion": "La Llave Para Manguera Compacta Con Rosca 4119C Dica es una válvula de paso diseñada para controlar el flujo de agua en instalaciones domésticas y comerciales, ideal para jardines, patios, lavaderos y sistemas de riego. Su diseño compacto permite su instalación en espacios reducidos.",
-    "Existencia": " 1 ",
+    "Existencia": " 4 ",
     "precio": " $49.00 ",
     "imagen": "src/assets/img/varios/Llave Para Manguera Compacta Con Rosca 4119C Dica.PNG"
   },
@@ -315,17 +287,17 @@
     "imagen": "src/assets/img/varios/Portalampara de Porcelana Redondo para Techo 4 E26.png"
   },
   {
-    "nombre": "Regadera Clásica con Brazo y Chapetón.",
-    "descripcion": "Regadera con brazo y chapetón estilo clásico para instalaciones de baja presión..",
-    "Existencia": " 1 ",
-    "precio": " $349.00 ",
-    "imagen": "src/assets/img/varios/Regadera Clásica con Brazo y Chapetón.png"
-  },
-  {
     "nombre": "Parrilla A Gas Empotrable.",
     "descripcion": "Medida 58 cm (22.8″). Material Acero Inoxidable. Voltaje 127 Volts. Suministro Gas LP o Natural. Quemadores 1 rápido, 2 semi-rápidos y 1 auxiliar. Arañas Hierro fundido. Encendido Electrónico.",
     "Existencia": " 1 ",
     "precio": " $2,999.00 ",
     "imagen": "src/assets/img/varios/Parrilla A Gas Empotrable.png"
+  },
+  {
+    "nombre": "Llave Monomando Para Fregadero Dica 4079.",
+    "descripcion": "La llave monomando para fregadero Dica 4079 combina comodidad y elegancia. Su diseño moderno y ergonómico facilita su uso y limpieza diaria, proporcionando un agarre cómodo y acciones precisas.",
+    "Existencia": " 1 ",
+    "precio": " $1,499.00 ",
+    "imagen": "src/assets/img/varios/monomando mezcladora fregadero.png"
   }
 ]
