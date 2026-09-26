@@ -363,7 +363,7 @@ function enviarCarritoPorWhatsApp() {
   mensaje +=
     "Gracias por su preferencia.\nEn un momento le envió los datos para su pago por transferencia\no si lo prefiere en contra entrega\nFavor de enviarnos su Ubicación y Dirección.";
 
-  const url = `https://wa.me/+528139951055?text=${encodeURIComponent(mensaje)}`;
+  const url = `https://wa.me/+529995823756?text=${encodeURIComponent(mensaje)}`;
   window.open(url, "_blank");
 
   // 🧹 Vacía el carrito después del envío
