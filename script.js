@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById(targetId).classList.add("active");
 
       //? Opcional: Desplazar arriba en móvil
-      // window.scrollTo({ top: 0, behavior: "smooth" });
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   });
